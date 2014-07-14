@@ -1,0 +1,4 @@
+Welcome to the SPMC wiki!
+
+== FAQ ==
+- [[How to specify the location of SPMC data?]]
