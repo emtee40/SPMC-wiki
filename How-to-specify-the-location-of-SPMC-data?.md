@@ -7,4 +7,5 @@ xbmc.data=<path to the xbmc data root>
 ```
 e.g. xbmc.data=/storage/sdcard0/external_sdcard/xbmc_data
 
-Inside this, a directory ".xbmc" will be created which contain the well-known xbmc structure ("addons", "userdata", ...)
+Inside this, a directory ".xbmc" will be created which contain the well-known xbmc structure ("addons", "userdata", ...).  
+Currently, the specified path must be an android one, i.e. no "smb://" or "nfs://", but you can specify any directory mounted on the android FS, including samba or NFS ones.
