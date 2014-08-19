@@ -1,5 +1,5 @@
 Welcome to the SPMC wiki!
 
 == FAQ ==
-* [[How to specify the location of SPMC data?]]<br/>
+* [[How to specify the location of SPMC data?]]
 * [[How to wait for network to be active before starting SPMC?]]
