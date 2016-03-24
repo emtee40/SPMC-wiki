@@ -5,3 +5,4 @@ Welcome to the SPMC wiki!
 * [[How to wait for network to be active before starting SPMC?]]
 * [[How to autostart SPMC on boot]]
 * [[How to do voice search on Android TV]]
+* [[How to disable the "double-back on home to minimize" feature]]
