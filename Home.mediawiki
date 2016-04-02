@@ -6,3 +6,4 @@ Welcome to the SPMC wiki!
 * [[How to autostart SPMC on boot]]
 * [[How to do voice search on Android TV]]
 * [[How to disable the "double-back on home to minimize" feature]]
+* [[How to use the voice recognition feature]]
