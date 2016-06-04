@@ -1,0 +1,95 @@
+# Overview
+If you are using SPMC on the Nvidia Shield TV along with a Logitech Harmony Hub based remote control, then the following custom keymap may be useful.
+
+Its key advantages:
+* video will stop playing when you go back a screen
+* subtitles can be quickly toggled by pressing up on your remote navigation pad during video playback
+* codecinfo can be quickly toggled by pressing down on your remote navigation pad during video playback
+
+Note: this keymap is adapted from Amazon FireTV custom keymaps for Kodi
+
+
+
+# SPMC Settings
+```
+
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <Home>
+    <keyboard>
+      <menu>XBMC.ActivateWindow(Favourites)</menu>
+    </keyboard>
+  </Home>
+  <FullscreenVideo>
+    <keyboard>
+      <menu>seek(-7)</menu>
+      <backspace>Stop</backspace>
+      <browser_back>Stop</browser_back>
+      <up>ShowSubtitles</up>
+      <down>CodecInfo</down>
+    </keyboard>
+  </FullscreenVideo>
+  <VideoMenu>
+    <keyboard>
+      <backspace>Stop</backspace>
+      <browser_back>Stop</browser_back>
+    </keyboard>
+  </VideoMenu>
+  <MyFiles>
+    <keyboard>
+      <play_pause>Highlight</play_pause>
+    </keyboard>
+  </MyFiles>
+  <virtualkeyboard>
+    <keyboard>
+      <menu>shift</menu>
+      <play_pause>enter</play_pause>
+      <rewind>backspace</rewind>
+      <fastforward>number0</fastforward>
+      <backspace>Stop</backspace>
+      <browser_back>Stop</browser_back>
+    </keyboard>
+  </virtualkeyboard>
+<Visualisation>
+<keyboard>
+<browser_back>Stop</browser_back>
+<backspace>Stop</backspace>
+</keyboard>
+</Visualisation>
+  <Favourites>
+    <keyboard>
+      <browser_back>close</browser_back>
+    </keyboard>
+  </Favourites>
+  <NumericInput>
+    <keyboard>
+      <browser_back>Close</browser_back>
+    </keyboard>
+  </NumericInput>
+  <PVROSDChannels>
+    <keyboard>
+      <browser_back>Close</browser_back>
+    </keyboard>
+  </PVROSDChannels>
+  <PVROSDGuide>
+    <keyboard>
+      <browser_back>Close</browser_back>
+    </keyboard>
+  </PVROSDGuide>
+  <PVROSDDirector>
+    <keyboard>
+      <browser_back>Close</browser_back>
+    </keyboard>
+  </PVROSDDirector>
+  <PVROSDCutter>
+    <keyboard>
+      <browser_back>Close</browser_back>
+    </keyboard>
+  </PVROSDCutter>
+  <MyTVSettings>
+    <keyboard>
+      <browser_back>PreviousMenu</browser_back>
+    </keyboard>
+  </MyTVSettings>
+</keymap>
+```
