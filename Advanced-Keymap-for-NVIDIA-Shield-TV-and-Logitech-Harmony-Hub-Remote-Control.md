@@ -1,5 +1,5 @@
 # Overview
-If you are using SPMC on the Nvidia Shield TV along with a Logitech Harmony Hub based remote control, then the following custom keymap may be useful.
+If you are using SPMC on the NVIDIA Shield TV along with a Logitech Harmony Hub based remote control, then the following custom keymap may be useful.
 
 Its key advantages:
 * video will stop playing when you go back a screen
@@ -8,7 +8,7 @@ Its key advantages:
 
 Data from codecinfo is useful for submitting bug reports. It can confirm video and audio codecs in use, frame rate, hardware acceleration, buffer size and CPU utilization.
 
-Note: this keymap is adapted from Amazon FireTV custom keymaps for Kodi
+Note: this keymap is adapted from Amazon Fire TV custom keymaps for Kodi
 
 
 
