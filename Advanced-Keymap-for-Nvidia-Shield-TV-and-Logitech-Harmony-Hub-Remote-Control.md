@@ -6,6 +6,8 @@ Its key advantages:
 * subtitles can be quickly toggled by pressing up on your remote navigation pad during video playback
 * codecinfo can be quickly toggled by pressing down on your remote navigation pad during video playback
 
+Data from codecinfo is useful for submitting bug reports. It can confirm video and audio codecs in use, frame rate, hardware acceleration, buffer size and CPU utilization.
+
 Note: this keymap is adapted from Amazon FireTV custom keymaps for Kodi
 
 
