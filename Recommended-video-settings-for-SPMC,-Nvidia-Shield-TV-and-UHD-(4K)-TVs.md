@@ -4,14 +4,15 @@ SPMC supports rendering of both the graphical user interface and video in up to 
 Below are the recommended video settings for SPMC, Nvidia Shield TV and a 4K TV. These permit movie and TV show jacket art to be displayed at their highest quality. 
 
 
-# AV Receiver Settings
-If you are using an AV receiver, make sure that your AVR is configured to support 4K signal passthrough but is not modifying the video.
-
-
 # UHD TV Settings
 Confirm whether your UHD TV supports the HDMI 2.0 specifications and can accept UHD (50P/60P 4:4:4 and 4:2:2) signals. The default setting of many UHD TVs may be configured for HD/FHD signals. You may need to change the HDMI UHD Color setting to 'On'. 
 
 Depending on your TV, the UHD HDMI port may make a difference. Double-check your user manual to confirm that you have plugged your Nvidia Shield into a HDMI 2.0 port.
+
+
+# AV Receiver Settings
+If you are using an AV receiver, make sure that your AVR is configured to support 4K signal passthrough but is not modifying the video.
+
 
 # Android TV Settings
 Confirm that your Android TV is configured to permit the highest possible video output:
