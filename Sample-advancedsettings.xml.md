@@ -4,6 +4,7 @@ The following sample advancedsettings.xml showcases a number of advanced SPMC ca
 Sample settings include:
 
 * hiding the splash screen
+* disable the double back on home to minimize
 * using UHD (4K) resolution jacket art and wallpaper
 * auto-removing a video from "in progress" after it's 90% complete
 * hiding references to DVDs
