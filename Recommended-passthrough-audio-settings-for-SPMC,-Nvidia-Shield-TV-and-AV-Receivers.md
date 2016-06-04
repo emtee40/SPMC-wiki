@@ -6,6 +6,7 @@ Even if your AVR  supports DTS-HD MA or Dolby TrueHD, the method that you are us
 
 Make sure you connect your Nvidia Shield TV directly to your AV Receiver using an HDMI 2.0 port. Then connect your TV to your AVR. If you connect your settop box directly to your TV instead and use the HDMI 1.4 Audio Return Channel, then you will only see DTS or Dolby Digital, not DTS-HD MA or Dolby TrueHD.
 
+Finally, make sure you are using Shield Android TV software v3.1 or later.
 
 # SPMC Settings
 * Audio output device = **Android, RAW Passthrough**
