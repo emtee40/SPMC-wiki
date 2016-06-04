@@ -1,0 +1,30 @@
+# Overview
+SPMC supports decoding of many audio formats to PCM, which can be processed by most TVs and AV receivers. However, if you have a recent AV receiver, it may support hardware decoding of advanced audio codecs such as DD+/DTS, DTS-HD MA, Dolby TrueHD, Dolby Atmos, and DTS:X. SPMC can bitstream audio in passthrough mode to your AVR on an advanced Android TV device such as the Nvidia Shield TV.
+
+# Hardware Configuration
+Even if your AVR  supports DTS-HD MA or Dolby TrueHD, the method that you are using to send audio to your AVR may limit available hardware codecs.
+
+Make sure you connect your Nvidia Shield TV directly to your AV Receiver using an HDMI 2.0 port. Then connect your TV to your AVR. If you connect your settop box directly to your TV instead and use the HDMI 1.4 Audio Return Channel, then you will only see DTS or Dolby Digital, not DTS-HD MA or Dolby TrueHD.
+
+
+# SPMC Settings
+* Audio output device = **Android, PCM**
+* Number of channels = **7.1** [your receiver should be able to handle this input regardless of your actual speaker configuration]
+* Output configuration = **Best Match** 
+* Stereo upmix = **off**
+* Maintain original volume on downmix = **on**
+* Boost centre channel when downmixing = **0 dB**
+* Resample quality = **High**
+* Keep audio devices alive = **10 Minutes** [this will prevent your AVR from going to sleep]
+* Enable audio DSP processing = **off**
+* Enable passthrough = **on**
+* **Android, RAW Passthrough**
+
+Check your AVR receiver's user manual to confirm that it supports each of the following audio codecs and enable them accordingly:
+
+* Dolby Digital (AC3) capable receiver = **on**
+* Dolby Digital Plus (E-AC) capable receiver = **on**
+* DTS capable receiver = **on**
+* TrueHD capable receiver = **on**
+* DTS-HD capable receiver = **on**
+
