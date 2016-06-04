@@ -38,6 +38,7 @@ Make the following changes:
 
 ## System > Video Output
 * set GUI resolution limit = **unlimited**
+* vertical blank sync = **always enabled**
 
 ## OSD Video Settings
 While playing a video, go to the OSD > Video Settings
