@@ -8,7 +8,7 @@ Make sure you connect your Nvidia Shield TV directly to your AV Receiver using a
 
 
 # SPMC Settings
-* Audio output device = **Android, PCM**
+* Audio output device = **Android, RAW Passthrough**
 * Number of channels = **7.1** [your receiver should be able to handle this input regardless of your actual speaker configuration]
 * Output configuration = **Best Match** 
 * Stereo upmix = **off**
