@@ -23,10 +23,15 @@ Settings > Device > HDMI > 4K 60Hz (Recommended)
 # SPMC Settings
 Make the following changes:
 
+## Videos > Playback
+* adjust display refresh rate = **always**
+* pause during refresh rate change = **off**
+* sync playback to display = **off**
+
 ## Videos > Acceleration
 * enable HQ scalers = **low**
-* allow hardware acceleration (mediacodec surface) = **off**
-* allow hardware acceleration (mediacodec) = **on**
+* allow hardware acceleration - Mediacodec (Surface) = **off**
+* allow hardware acceleration - Mediacodec = **on**
 * accelerate MPEG2 = **always**
 * accelerate MPEG4 = **always**
 * accelerate h264 = **always**
