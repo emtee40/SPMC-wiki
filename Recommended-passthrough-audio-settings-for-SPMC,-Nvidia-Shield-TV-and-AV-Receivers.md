@@ -18,7 +18,7 @@ Make sure you connect your Nvidia Shield TV directly to your AV Receiver using a
 * Keep audio devices alive = **10 Minutes** [this will prevent your AVR from going to sleep]
 * Enable audio DSP processing = **off**
 * Enable passthrough = **on**
-* **Android, RAW Passthrough**
+* Passthrough output device = **Android, RAW Passthrough**
 
 Check your AVR receiver's user manual to confirm that it supports each of the following audio codecs and enable them accordingly:
 
