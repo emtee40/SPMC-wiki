@@ -1,5 +1,5 @@
 # Overview
-If you are using SPMC on the NVIDIA Shield TV along with a Logitech Harmony Hub based remote control, then the following custom keymap may be useful.
+If you are using SPMC on the NVIDIA Shield TV along with a Logitech Harmony Hub based remote control, then the following custom keymap may be useful. This keymap is adapted from Amazon Fire TV custom keymaps for Kodi
 
 Its key advantages:
 * video will stop playing when you go back a screen
@@ -8,8 +8,9 @@ Its key advantages:
 
 Data from codecinfo is useful for submitting bug reports. It can confirm video and audio codecs in use, frame rate, hardware acceleration, buffer size and CPU utilization.
 
-Note: this keymap is adapted from Amazon Fire TV custom keymaps for Kodi
+The default NVIDIA Shield TV profile for the Logitech Harmony hub remote controls uses IR. If you configure your Shield TV to connect with your Harmony via Bluetooth, then key responses will be faster.
 
+Note: certain keys such as 0-9 number keys do not work via the Logitech Harmony remote with the Shield TV.
 
 
 # SPMC Settings
