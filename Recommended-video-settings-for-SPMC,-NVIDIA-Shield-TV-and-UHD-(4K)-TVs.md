@@ -13,7 +13,7 @@ Depending on your TV, the UHD HDMI port may make a difference. Double-check your
 
 
 # AV Receiver Settings
-If you are using an AV receiver, make sure that your AVR is configured to support 4K signal passthrough but is not modifying the video.
+If you are using an AV receiver, make sure that your AVR is configured to support 4K signal passthrough but is not modifying the video resolution.
 
 
 # Android TV Settings
