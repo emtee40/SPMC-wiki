@@ -31,3 +31,6 @@ Check your AVR receiver's user manual to confirm that it supports each of the fo
 * TrueHD capable receiver = **on**
 * DTS-HD capable receiver = **on**
 
+
+# Other
+Videos > Playback > sync playback to display should be set to **off** when using passthrough audio.
