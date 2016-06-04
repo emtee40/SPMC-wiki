@@ -60,4 +60,10 @@ Finally, add the following lines to your advancedsettings.xml
 </video>
 <fanartres>2160</fanartres>
 <imageres>2160</imageres>
-</advancedsettings>`
+</advancedsettings>
+
+```
+
+
+# Other
+Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
