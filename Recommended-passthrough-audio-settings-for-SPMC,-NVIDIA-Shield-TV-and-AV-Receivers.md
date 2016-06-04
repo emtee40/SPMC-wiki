@@ -33,4 +33,4 @@ Check your AVR receiver's user manual to confirm that it supports each of the fo
 
 
 # Other
-Videos > Playback > sync playback to display should be set to **off** when using passthrough audio.
+Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
