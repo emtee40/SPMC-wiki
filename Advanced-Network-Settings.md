@@ -5,6 +5,7 @@ If you have an advanced settop box such as an Nvidia Shield TV or Amazon Fire TV
 
 You can then confirm how much local buffer is being used by invoking **codecinfo** within SPMC.
 
+# SPMC Settings
 ```
 <advancedsettings>
 	<network>
