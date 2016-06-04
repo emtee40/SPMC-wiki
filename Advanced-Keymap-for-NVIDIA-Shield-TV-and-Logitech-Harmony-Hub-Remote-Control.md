@@ -8,7 +8,7 @@ Its key advantages:
 
 Data from codecinfo is useful for submitting bug reports. It can confirm video and audio codecs in use, frame rate, hardware acceleration, buffer size and CPU utilization.
 
-The default NVIDIA Shield TV profile for the Logitech Harmony hub remote controls uses IR. If you configure your Shield TV to connect with your Harmony via Bluetooth, then key responses will be faster.
+The default NVIDIA Shield TV profile for the Logitech Harmony hub remote controls uses IR. If you configure your Shield TV to connect with your Harmony via Bluetooth, then key responses will be faster. IP control of the Shield TV is not currently an option via the Logitech Harmony.
 
 Note: certain keys such as 0-9 number keys do not work via the Logitech Harmony remote with the Shield TV.
 
