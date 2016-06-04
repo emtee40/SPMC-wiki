@@ -1,0 +1,49 @@
+# Overview
+SPMC supports rendering of both the graphical user interface and video in up to 4K resolution if you have a high-end Android TV settop box like the Nvidia Shield TV. As of SPMC 16.3, new HQ scalers are also an option to improve video quality.
+
+Below are the recommended video settings for SPMC, Nvidia Shield TV and a 4K TV. These permit movie and TV show jacket art to be displayed at their highest quality. 
+
+
+# UHD TV Settings
+Confirm whether your UHD TV supports the HDMI 2.0 specifications and can accept UHD (50P/60P 4:4:4 and 4:2:2) signals. The default setting of many UHD TVs may be configured for HD/FHD signals. You may need to change the HDMI UHD Color setting to 'On'. 
+
+
+# Android TV Settings
+Confirm that your Android TV is configured to permit the highest possible video output:
+```
+Settings > Device > HDMI > 4K 60Hz (Recommended)
+```
+
+# SPMC Settings
+Make the following changes:
+
+## Videos > Acceleration
+* enable HQ scalers = **low**
+* allow hardware acceleration (mediacodec surface) = **off**
+* allow hardware acceleration (mediacodec) = **on**
+* accelerate MPEG2 = **always**
+* accelerate MPEG4 = **always**
+* accelerate h264 = **always**
+
+## System > Video Output
+* set GUI resolution limit = **unlimited**
+
+## OSD Video Settings
+While playing a video, go to the OSD > Video Settings
+* deinterlace video = **auto**
+* deinterlace method = **bob inverted**
+* video scaling method = **lanczos3 - optimised**
+
+Be sure to set these as the **default for all media**!
+
+## advancedsettings.xml
+Finally, add the following lines to your advancedsettings.xml
+
+```
+<advancedsettings>
+<video>
+<enablehighqualityhwscalers>true</enablehighqualityhwscalers>
+</video>
+<fanartres>2160</fanartres>
+<imageres>2160</imageres>
+</advancedsettings>`
