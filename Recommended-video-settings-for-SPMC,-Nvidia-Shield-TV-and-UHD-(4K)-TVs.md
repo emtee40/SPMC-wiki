@@ -43,7 +43,7 @@ Make the following changes:
 ## OSD Video Settings
 While playing a video, go to the OSD > Video Settings
 * deinterlace video = **auto**
-* deinterlace method = **bob inverted**
+* deinterlace method = **bob**
 * video scaling method = **lanczos3 - optimised**
 
 Be sure to set these as the **default for all media**!
