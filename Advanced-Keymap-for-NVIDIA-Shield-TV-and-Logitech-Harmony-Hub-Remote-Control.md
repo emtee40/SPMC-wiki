@@ -14,7 +14,7 @@ Note: certain keys such as 0-9 number keys do not work via the Logitech Harmony 
 
 
 # SPMC Settings
-Create a text file called keyboard.xml and place it in the _keymaps_ folder in your _userdata_ folder.
+Create a text file called _keyboard.xml_ and place it in the _keymaps_ folder in your _userdata_ folder.
 ```
 
 <?xml version="1.0" encoding="UTF-8"?>
