@@ -18,6 +18,7 @@ Sample settings include:
 
 
 # SPMC Settings
+Create a text file called _advancedsettings.xml_ and place it in your _userdata_ folder.
 ```
 
 <advancedsettings>
