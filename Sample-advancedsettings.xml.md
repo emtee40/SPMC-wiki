@@ -19,6 +19,9 @@ Sample settings include:
 
 # SPMC Settings
 Create a text file called _advancedsettings.xml_ and place it in your _userdata_ folder.
+
+Replace the _host_, _user_ and _pass_ field sample information below with your personal configuration.
+
 ```
 
 <advancedsettings>
