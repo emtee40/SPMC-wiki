@@ -8,3 +8,11 @@ Welcome to the SPMC wiki!
 * [[How to disable the "double-back on home to minimize" feature]]
 * [[How to use the voice recognition feature]]
 * [[Where is the "Clean Thumbnails" option?]]
+
+== Nvidia Shield speicic ==
+* [[Recommended video settings for SPMC, NVIDIA Shield TV and UHD (4K) TVs]]
+* [[Recommended passthrough audio settings for SPMC, NVIDIA Shield TV and AV Receivers]]
+* [[Advanced Keymap for NVIDIA Shield TV and Logitech Harmony Hub Remote Control]]
+
+== Other ==
+* [[Sample advancedsettings.xml]]
