@@ -22,7 +22,7 @@ Confirm that your Shield TV is configured to permit the highest possible video o
 Settings > Device > HDMI > 4K 60Hz (Recommended)
 ```
 
-Additionally, Dynamic Range should be set to Auto. If you UHD TV can be set to the full range of RGB, then the Shield will also be in the full range.
+Additionally, Dynamic Range should be set to **auto**. If you UHD TV can be set to the full range of RGB, then the Shield will also be in the full range.
 
 
 # SPMC Settings
