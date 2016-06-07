@@ -9,7 +9,7 @@ Welcome to the SPMC wiki!
 * [[How to use the voice recognition feature]]
 * [[Where is the "Clean Thumbnails" option?]]
 
-== Nvidia Shield speicic ==
+== Nvidia Shield Specific ==
 * [[Recommended video settings for SPMC, NVIDIA Shield TV and UHD (4K) TVs]]
 * [[Recommended passthrough audio settings for SPMC, NVIDIA Shield TV and AV Receivers]]
 * [[Advanced Keymap for NVIDIA Shield TV and Logitech Harmony Hub Remote Control]]
