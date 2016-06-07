@@ -1,7 +1,7 @@
 # Overview
 The following sample advancedsettings.xml showcases a number of advanced SPMC capabilities. 
 
-**You should only use the settings appropriate for your needs. All of these are optional. **
+**You should only use the settings appropriate for your needs. All of these settings are optional!**
 
 Sample settings include:
 
