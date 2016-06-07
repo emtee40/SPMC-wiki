@@ -27,7 +27,6 @@ Make the following changes:
 
 ## Videos > Playback
 * adjust display refresh rate = **always**
-* pause during refresh rate change = **off**
 * sync playback to display = **off**
 
 ## Videos > Acceleration
