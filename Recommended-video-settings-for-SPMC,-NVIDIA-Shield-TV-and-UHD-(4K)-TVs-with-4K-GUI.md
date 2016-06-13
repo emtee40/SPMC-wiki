@@ -26,7 +26,7 @@ Additionally, Dynamic Range should be set to **auto**. If you UHD TV can be set 
 
 
 # SPMC Settings
-Make the following changes:
+Enable 'expert' in the settings menu. Then, make the following changes:
 
 ## Videos > Playback
 * adjust display refresh rate = **always**
