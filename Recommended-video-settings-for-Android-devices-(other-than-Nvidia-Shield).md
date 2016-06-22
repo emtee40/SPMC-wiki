@@ -42,8 +42,6 @@ While playing a video, go to the OSD > Video Settings
 
 Be sure to set these as the **default for all media**!
 
-```
-
 
 # Other
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
