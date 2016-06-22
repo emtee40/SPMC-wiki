@@ -25,7 +25,6 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 * sync playback to display = **off**
 
 ## Videos > Acceleration
-* enable HQ scalers = **low**
 * allow hardware acceleration - Mediacodec (Surface) = **on**
 * allow hardware acceleration - Mediacodec = **on**
 * accelerate MPEG2 = **always**
