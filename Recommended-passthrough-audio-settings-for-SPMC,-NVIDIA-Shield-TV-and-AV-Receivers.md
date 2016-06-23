@@ -36,5 +36,7 @@ Check your AVR receiver's user manual to confirm that it supports each of the fo
 * DTS-HD capable receiver = **on**
 
 
+Note that these instructions were written for Android 6.0/Shield TV 3.1.
+
 # Other
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
