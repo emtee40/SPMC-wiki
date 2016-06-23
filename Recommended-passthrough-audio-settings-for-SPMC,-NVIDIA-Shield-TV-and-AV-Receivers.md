@@ -1,7 +1,9 @@
 # Overview
 SPMC supports decoding of many audio formats to uncompressed PCM, which can be processed by most TVs, soundbars, and AV receivers. If SPMC supports PCM decoding of a desired audio codec, there is no sonic difference between PCM output (where SPMC is doing the decoding) and bitstream output (where your AVR is doing the decoding).
 
-If you have a recent AV receiver or soundbar, it may support native hardware decoding of advanced audio codecs such as DD+/DTS, DTS-HD MA, Dolby TrueHD, Dolby Atmos, and DTS:X. SPMC can passthrough bitstream audio to your AVR or soundbar with an advanced Android TV settop such as the NVIDIA Shield TV. In addition to freeing up settop device resources, the advantage of using passthrough is to playback audio codecs that SPMC does not support. 
+If you have a recent AV receiver or soundbar, it may support native hardware decoding of advanced audio codecs such as DD+/DTS, DTS-HD MA, Dolby TrueHD, Dolby Atmos, and DTS:X. SPMC can passthrough bitstream audio to your AVR or soundbar with an advanced Android TV settop such as the NVIDIA Shield TV. 
+
+In addition to freeing up settop device resources, the advantages of using passthrough are (1) to playback audio codecs that SPMC does not support and (2) to use your AVR to apply different effects to different codecs or channel inputs. For example, your AVR might be configured to apply multi-dimensional processing to a 2-channel PCM source while not processing DTS-HD MA, Dolby TrueHD, or other surround sounds codecs (passing them directly).
 
 # Hardware Configuration
 Even if your AVR or soundbar  supports DTS-HD MA or Dolby TrueHD, the method that you are using to send audio to your AVR may limit available hardware codecs.
