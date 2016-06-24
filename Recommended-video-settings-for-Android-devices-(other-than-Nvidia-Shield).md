@@ -1,5 +1,5 @@
 # Overview
-SPMC runs on Android-based settops and TVs. The settings below permit you to watch content in up to 4K (2160p) resolution if you have a UHD (4K) TV. However, the GUI will be limited to 1080 resolution. 
+SPMC runs on Android-based settops and TVs. The settings below permit you to watch content in up to 4K (2160p) resolution if you have a UHD (4K) TV. However, the GUI will be limited to 1920 × 1080 resolution. 
 
 If you have an Nvidia Shield TV, you should use [these instructions for 4K GUI](https://github.com/koying/SPMC/wiki/Recommended-video-settings-for-SPMC%2C-NVIDIA-Shield-TV-and-UHD-%284K%29-TVs-with-4K-GUI) or [these instructions for 1080 GUI](https://github.com/koying/SPMC/wiki/Recommended-video-settings-for-SPMC-and-NVIDIA-Shield-TV-with-1080p-GUI) instead.
 
