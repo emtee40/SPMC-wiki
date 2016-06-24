@@ -1,6 +1,7 @@
 Welcome to the SPMC wiki!
 
 == FAQ ==
+* [[Recommended video settings for Android devices (other than Nvidia Shield)]]
 * [[How to specify the location of SPMC data?]]
 * [[How to wait for network to be active before starting SPMC?]]
 * [[How to autostart SPMC on boot]]
@@ -11,6 +12,7 @@ Welcome to the SPMC wiki!
 
 == Nvidia Shield Specific ==
 * [[Recommended video settings for SPMC, NVIDIA Shield TV and UHD (4K) TVs with 4K GUI]]
+* [[Recommended video settings for SPMC and NVIDIA Shield TV with 1080p GUI]]
 * [[Recommended passthrough audio settings for SPMC, NVIDIA Shield TV and AV Receivers]]
 * [[Advanced Keymap for NVIDIA Shield TV and Logitech Harmony Hub Remote Control]]
 
