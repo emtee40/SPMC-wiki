@@ -10,7 +10,7 @@ Even if your AVR or soundbar  supports DTS-HD MA or Dolby TrueHD, the method tha
 
 Make sure you connect your Nvidia Shield TV directly to your AV Receiver using an HDMI 2.0 port. Then connect your TV to your AVR. If you connect your settop box directly to your TV instead and use the HDMI 1.4 Audio Return Channel, then you will only see DTS or Dolby Digital, not DTS-HD MA or Dolby TrueHD.
 
-Finally, make sure you are using Shield Android TV software v3.1 or later.
+Finally, make sure you are using Shield Android TV software v3.2 or later.
 
 # SPMC Settings
 Enable 'expert' in the settings menu. Then, make the following changes:
@@ -36,7 +36,7 @@ Check your AVR receiver's user manual to confirm that it supports each of the fo
 * DTS-HD capable receiver = **on**
 
 
-Note that these instructions were written for Android 6.0/Shield TV 3.1.
+Note that these instructions were written for Android 6.0/Shield TV 3.2.
 
 # Other
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
