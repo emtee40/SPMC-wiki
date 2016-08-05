@@ -3,7 +3,9 @@ SPMC supports rendering of both the graphical user interface and video in up to 
 
 However, if you only have a Full HD (1080p) TV or if you have a UHD TV but only watch 1080p content in any of your apps on your Shield, then you should use the settings below. 
 
-If you have a UHD TV, you will have the added benefit of using your UHD TV's upscalers. These may provide better video quality of 1080p content displayed at 4K resolution than SPMC's upscalers. Additionally, content below 1080p such as 480i and 720p will be upscaled to 1080p by SPMC using the HQ scalers. "Lanczos3 - optimised" is the best video scaling method and Bob is the best hardware accelerated deinterlacing available in SPMC on the Shield TV.
+If you have a UHD TV, you will have the added benefit of using your UHD TV's upscalers. These may provide better video quality of 1080p content displayed at 4K resolution than SPMC's upscalers. Additionally, content below 1080p such as 480i and 720p will be upscaled to 1080p by SPMC using the HQ scalers.  _"Lanczos3 - optimised"_ is the best video scaling method. 
+
+_"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because it is not hardware accelerated, it is best for SD resolution videos.  For HD videos, _"Bob Inverted"_ is the best deinterlacing for HD videos because it is hardware accelerated.
 
 
 # UHD TV Settings
@@ -28,9 +30,9 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 * enable HQ scalers = **low**
 * allow hardware acceleration - Mediacodec (Surface) = **off**
 * allow hardware acceleration - Mediacodec = **on**
-* accelerate MPEG2 = **always**
-* accelerate MPEG4 = **always**
-* accelerate h264 = **always**
+* accelerate MPEG2 = **HD and up**
+* accelerate MPEG4 = **HD and up**
+* accelerate h264 = **HD and up**
 
 ## System > Video Output
 * set GUI resolution limit = **1080**
@@ -39,7 +41,8 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 ## OSD Video Settings
 While playing a video, go to the OSD > Video Settings
 * deinterlace video = **auto**
-* deinterlace method = **bob**
+* deinterlace method (SD/software accelerated) = **yadif (2x)**
+* deinterlace method (HD/hardware accelerated) = **bob inverted**
 * video scaling method = **lanczos3 - optimised**
 
 Be sure to set these as the **default for all media**!
