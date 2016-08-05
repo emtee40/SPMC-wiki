@@ -1,7 +1,7 @@
 # Overview
 SPMC supports rendering of both the graphical user interface and video in up to 4K (2160p) resolution if you have a high-end Android TV settop box like the NVIDIA Shield TV and a UHD (4K) TV. 
 
-If you have a UHD TV, you should configure the Shield TV settop for the maximum 4K output. With the configuration below, you can then view the SPMC GUI at 2160p. In addition to SPMC, you can watch 4K content in other apps such as Netflix and Youtube. 
+If you have a UHD TV, you should configure the Shield TV settop for the maximum 4K output. With the configuration below, you can then view the SPMC GUI at 2160p. In addition to SPMC, you can watch 4K content in other apps such as Netflix, VUDU, and YouTube. 
 
 The tradeoff is that the Kodi app--not your UHD TV--will upsample videos below 2160p. As of SPMC 16.4.1 and Shield Android TV software v3.2, new HQ scalers are an option to improve video quality. _"Lanczos3 - optimised"_ is the best video scaling method. 
 
@@ -72,3 +72,8 @@ Finally, add the following lines to your advancedsettings.xml. The fanart and im
 
 # Other
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
+
+Refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. 
+
+HDR10 is active only in 4K at 40/59.94/60Hz.
+
