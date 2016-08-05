@@ -77,5 +77,5 @@ With Shield Android TV software v3.2, refresh rate switching defaults to RGB. It
 
 Refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. 
 
-HDR10 is active only in 4K at 40/59.94/60Hz.
+HDR is active only for 4K 50/59.94/60Hz. Those modes will always default to 10-bit Rec. 2020 YCbCr 4:2:0 (provided the display has support). It will switch to 4K 23.976 RGB and then back to YCbCr. 
 
