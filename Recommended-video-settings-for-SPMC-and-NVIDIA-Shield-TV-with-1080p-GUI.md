@@ -62,7 +62,7 @@ Finally, add the following lines to your advancedsettings.xml. The fanart and im
 ```
 
 
-# Other
+# Other / Known Issues
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
 
 With Shield Android TV software v3.2, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). 
