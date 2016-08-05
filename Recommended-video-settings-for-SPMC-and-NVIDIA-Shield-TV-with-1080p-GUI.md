@@ -67,4 +67,4 @@ Videos > Playback > sync playback to display should always be set to **off** whe
 
 Refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. 
 
-HDR10 is active only in 4K at 40/59.94/60Hz [see these instructions](https://github.com/koying/SPMC/wiki/Recommended-video-settings-for-SPMC%2C-NVIDIA-Shield-TV-and-UHD-%284K%29-TVs-with-4K-GUI).
+HDR10 is active only in 4K at 40/59.94/60Hz. [See these instructions](https://github.com/koying/SPMC/wiki/Recommended-video-settings-for-SPMC%2C-NVIDIA-Shield-TV-and-UHD-%284K%29-TVs-with-4K-GUI).
