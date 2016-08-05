@@ -5,7 +5,7 @@ If you have a UHD TV, you should configure the Shield TV settop for the maximum 
 
 The tradeoff is that the Kodi app--not your UHD TV--will upsample videos below 2160p. As of SPMC 16.4.1 and Shield Android TV software v3.2, new HQ scalers are an option to improve video quality. _"Lanczos3 - optimised"_ is the best video scaling method. 
 
-_"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because it is not hardware accelerated, it is best for SD resolution videos.  For HD videos, _"Bob"_ is the best deinterlacing for HD videox because it is hardware accelerated.
+_"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because it is not hardware accelerated, it is best for SD resolution videos.  For HD videos, _"Bob"_ is the best deinterlacing for HD videos because it is hardware accelerated.
 
 
 # UHD TV Settings
