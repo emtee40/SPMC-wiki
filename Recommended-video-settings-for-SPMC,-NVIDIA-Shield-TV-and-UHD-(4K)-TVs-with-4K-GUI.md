@@ -49,7 +49,8 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 ## OSD Video Settings
 While playing a video, go to the OSD > Video Settings
 * deinterlace video = **auto**
-* deinterlace method = **bob**
+* deinterlace method (SD/software accelerated) = **yadif "(2x)**
+* deinterlace method (HD/hardware accelerated) = **bob**
 * video scaling method = **lanczos3 - optimised**
 
 Be sure to set these as the **default for all media**!
