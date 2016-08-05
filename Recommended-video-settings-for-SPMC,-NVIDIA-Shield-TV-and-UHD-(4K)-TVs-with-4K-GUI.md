@@ -38,9 +38,9 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 * enable HQ scalers = **low**
 * allow hardware acceleration - Mediacodec (Surface) = **off**
 * allow hardware acceleration - Mediacodec = **on**
-* accelerate MPEG2 = **always**
-* accelerate MPEG4 = **always**
-* accelerate h264 = **always**
+* accelerate MPEG2 = **HD and up**
+* accelerate MPEG4 = **HD and up**
+* accelerate h264 = **HD and up**
 
 ## System > Video Output
 * set GUI resolution limit = **unlimited**
