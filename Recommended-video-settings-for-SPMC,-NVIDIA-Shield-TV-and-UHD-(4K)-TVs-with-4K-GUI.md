@@ -7,6 +7,8 @@ The tradeoff is that the Kodi app--not your UHD TV--will upsample videos below 2
 
 _"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because it is not hardware accelerated, it is best for SD resolution videos.  For HD videos, _"Bob Inverted"_ is the best deinterlacing for HD videos because it is hardware accelerated.
 
+As of Shield Android TV software v3.2, you can also watch HDR videos in SPMC. HDR is active only for 4K 50/59.94/60Hz.
+
 
 # UHD TV Settings
 Confirm whether your UHD TV supports the HDMI 2.0 specifications and can accept UHD (50P/60P 4:4:4, 4:2:2 and 4:2:0) signals. The default setting of many UHD TVs may be configured for HD/FHD signals with limited range of RGB (16-235). You may need to change the HDMI UHD Color setting to **on** for the full range of RGB (0-255).
@@ -77,5 +79,4 @@ With Shield Android TV software v3.2, refresh rate switching defaults to RGB. It
 
 Refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. 
 
-HDR is active only for 4K 50/59.94/60Hz. Those modes will always default to 10-bit Rec. 2020 YCbCr 4:2:0 (provided the display has support). It will switch to 4K 23.976 RGB and then back to YCbCr. 
-
+HDR modes will default to 10-bit Rec. 2020 YCbCr 4:2:0 (provided the display has support). The Shield will switch to 4K 23.976 RGB and then back to YCbCr. 
