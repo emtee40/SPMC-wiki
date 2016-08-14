@@ -11,7 +11,7 @@ Sample settings include:
 * auto-removing a video from "in progress" after it's 90% complete
 * hiding references to DVDs
 * enabling high quality scalers for higher quality video output
-* using regular expressions to hide certain files (e.g. NAS indexing files) from SPMC
+* using regular expressions to hide certain files (e.g. Synology NAS indexing files) from SPMC (only valuable if you need to hide specific files)
 * using advanced networking settings for a larger local buffer
 * using multi-room video playback (including SQL settings and resume points)
 * tweaking certain UX settings such as "all items" and "empty series"
