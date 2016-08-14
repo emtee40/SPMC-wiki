@@ -27,13 +27,13 @@ Replace the _host_, _user_ and _pass_ field sample information below with your p
 ```
 
 <advancedsettings>
-        <splash>no</splash>
-        <disableminimize>true</disableminimize>
-        <fanartres>2160</fanartres>
-	<imageres>2160</imageres>
-        <imagescalingalgorithm>lanczos</imagescalingalgorithm>
-	<playcountminimumpercent>90</playcountminimumpercent>
-	<nodvdrom>true</nodvdrom>
+   <splash>no</splash>
+   <disableminimize>true</disableminimize>
+   <fanartres>2160</fanartres>
+   <imageres>2160</imageres>
+   <imagescalingalgorithm>lanczos</imagescalingalgorithm>
+   <playcountminimumpercent>90</playcountminimumpercent>
+   <nodvdrom>true</nodvdrom>
 	<video>
 	    <enablehighqualityhwscalers>true</enablehighqualityhwscalers>
 		<excludefromscan> <!-- Excludes Synology index files from scan  -->
