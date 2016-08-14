@@ -7,7 +7,7 @@ Sample settings include:
 
 * hiding the splash screen
 * disabling the double back on home to minimize
-* using UHD (4K) resolution jacket art (thumbnails) and wallpaper (only valuable if also running GUI in 4K resolution)
+* using UHD (4K) resolution jacket art (thumbnails) and wallpaper (only valuable if also running GUI in 4K resolution) and improved scaling algorithm for caching
 * auto-removing a video from "in progress" after it's 90% complete
 * hiding references to DVDs
 * enabling high quality scalers for higher quality video output
@@ -27,10 +27,11 @@ Replace the _host_, _user_ and _pass_ field sample information below with your p
 ```
 
 <advancedsettings>
-	<splash>no</splash>
-    <disableminimize>true</disableminimize>
-    <fanartres>2160</fanartres>
+        <splash>no</splash>
+        <disableminimize>true</disableminimize>
+        <fanartres>2160</fanartres>
 	<imageres>2160</imageres>
+        <imagescalingalgorithm>lanczos</imagescalingalgorithm>
 	<playcountminimumpercent>90</playcountminimumpercent>
 	<nodvdrom>true</nodvdrom>
 	<video>
