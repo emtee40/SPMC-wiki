@@ -1,13 +1,13 @@
 # Overview
 The following sample advancedsettings.xml showcases a number of advanced SPMC capabilities. 
 
-**You should only use the settings appropriate for your needs. All of these settings are optional!**
+**You should only use the settings appropriate for your needs. All of these settings are optional! Some of these settings assume you have a high-powered CPU**
 
 Sample settings include:
 
 * hiding the splash screen
 * disabling the double back on home to minimize
-* using UHD (4K) resolution jacket art (thumbnails) and wallpaper (only valuable if also running GUI in 4K resolution) and improved scaling algorithm for caching
+* using UHD (4K) resolution jacket art (thumbnails) and wallpaper (only valuable if also running GUI in 4K resolution) and improved image scaling algorithm for image resizing/caching 
 * auto-removing a video from "in progress" after it's 90% complete
 * hiding references to DVDs
 * enabling high quality scalers for higher quality video output
