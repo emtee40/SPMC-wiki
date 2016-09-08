@@ -40,3 +40,8 @@ Note that these instructions were written for Android 6.0/Shield TV 3.2.
 
 # Other
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
+
+# Audio Return Channel (ARC)
+As noted above, you should use your AVR, not your TV, for HDMI input switching. One use case where this isn't feasible is if you wish to play protected 4K content and your AVR doesn't support HDCP 2.2 but your TV does. In that instance, you can use Audio Return Channel to send the audio back to your AVR. You must connect your devices through ARC-enabled HDMI ports. 
+
+However, many TVs are two-channel (2.0) only via ARC. And some TVs will send 5.1 if the TV is the source of the audio but won't pass 5.1 from other sources like a Blu-ray players or Android settop boxes. Finally, ARC only passes Dolby Digital, not Dolby TrueHD and DTS-HD. 
