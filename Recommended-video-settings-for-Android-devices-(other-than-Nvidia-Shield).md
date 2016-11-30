@@ -28,13 +28,5 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 * set GUI resolution limit = **1080**
 * vertical blank sync = **always enabled**
 
-## OSD Video Settings
-While playing a video, go to the OSD > Video Settings
-* deinterlace video = **auto**
-* deinterlace method = **bob**
-
-Be sure to set these as the **default for all media**!
-
-
 # Other
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
