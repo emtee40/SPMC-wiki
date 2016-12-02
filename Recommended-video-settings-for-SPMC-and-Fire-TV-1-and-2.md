@@ -1,19 +1,14 @@
 **THIS DOCUMENT IS A WORK IN PROGRESS. IT NEEDS TO BE UPDATED FOR BOTH FTV1 and FTV2, RESPECTIVELY**
 
 # Overview
-SPMC supports rendering of both the graphical user interface and video in up to 4K (2160p) resolution if you have a high-end Android TV settop box like the NVIDIA Shield TV and a UHD (4K) TV. If you have a UHD TV and you watch 2160p (4K) content (e.g. HDR content in SPMC, 4K in YouTube app, or 4K in the Netflix app), then you should use [these instructions instead](https://github.com/koying/SPMC/wiki/Recommended-video-settings-for-SPMC%2C-NVIDIA-Shield-TV-and-UHD-%284K%29-TVs-with-4K-GUI).
-
-However, if you only have a Full HD (1080p) TV or if you have a UHD TV but only watch 1080p content in all of your apps on your Shield, then you should use the settings below. If you have a UHD TV, this will have the added advantage of using your TV's upscalers, which may be better than SPMC's.
-
-
 # UHD TV Settings
 Because your content is limited to 1080p, your TV should be configured with limited range of RGB (16-235). You should be able to use both HDMI 1.4 and HDMI 2.0 ports though users have reported a few issues due to HDMI 1.4 devices.
 
 
 # Android TV Settings
-Confirm that your Shield TV is configured to limit the video output resolution to 1080p:
+Confirm that your Fire TV is configured to limit the video output resolution to "auto":
 ```
-Settings > Device > HDMI > 1080p
+PATH NEEDED
 ```
 
 
@@ -54,8 +49,4 @@ Finally, add the following lines to your advancedsettings.xml. The fanart and im
 # Other / Known Issues
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
 
-With Shield Android TV software v3.2 and 3.3, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). 
-
 Refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. 
-
-HDR is active only in 4K at 40/59.94/60Hz. [See these instructions for 4K](https://github.com/koying/SPMC/wiki/Recommended-video-settings-for-SPMC%2C-NVIDIA-Shield-TV-and-UHD-%284K%29-TVs-with-4K-GUI).
