@@ -6,9 +6,8 @@ If you have an Nvidia Shield TV, you should use [these instructions for 4K GUI](
 These settings are intended for lower-powered devices and therefore do not make use of SPMC's HQ scalers. If you have a UHD (4K) TV, its internal upscalers may improve your video quality.
 
 
-# UHD TV Settings
+# TV Settings
 Because your content is limited to 1080p, your TV should be configured with limited range of RGB (16-235). You should be able to use both HDMI 1.4 and HDMI 2.0 ports though users have reported a few issues due to HDMI 1.4 devices.
-
 
 # SPMC Settings
 Enable 'expert' in the settings menu. Then, make the following changes:
@@ -30,3 +29,5 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 
 # Other
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
+
+Philips and Sony TVs do not support refresh rate adjustment
