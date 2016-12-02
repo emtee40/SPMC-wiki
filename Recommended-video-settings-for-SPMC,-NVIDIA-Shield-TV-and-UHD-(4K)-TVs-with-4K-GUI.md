@@ -9,6 +9,8 @@ _"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because
 
 As of Shield Android TV software v3.2, you can also watch HDR videos in SPMC. HDR is active only for 4K 50/59.94/60Hz.
 
+**Note: As of SPMC 16.5, you must disable MediaCodec (Surface) to use upscaling or deinterlacing**
+
 
 # UHD TV Settings
 Confirm whether your UHD TV supports the HDMI 2.0 specifications and can accept UHD (50P/60P 4:4:4, 4:2:2 and 4:2:0) signals. The default setting of many UHD TVs may be configured for HD/FHD signals with limited range of RGB (16-235). You may need to change the HDMI UHD Color setting to **on** for the full range of RGB (0-255).
