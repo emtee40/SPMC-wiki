@@ -1,11 +1,7 @@
 # Overview
-SPMC supports rendering of both the graphical user interface and video in up to 4K (2160p) resolution if you have a high-end Android TV settop box like the NVIDIA Shield TV and a UHD (4K) TV. If you have a UHD TV and you watch 2160p (4K) content, then you should use [these instructions instead](https://github.com/koying/SPMC/wiki/Recommended-video-settings-for-SPMC%2C-NVIDIA-Shield-TV-and-UHD-%284K%29-TVs-with-4K-GUI).
+SPMC supports rendering of both the graphical user interface and video in up to 4K (2160p) resolution if you have a high-end Android TV settop box like the NVIDIA Shield TV and a UHD (4K) TV. If you have a UHD TV and you watch 2160p (4K) content (e.g. HDR content in SPMC, 4K in YouTube app, or 4K in the Netflix app), then you should use [these instructions instead](https://github.com/koying/SPMC/wiki/Recommended-video-settings-for-SPMC%2C-NVIDIA-Shield-TV-and-UHD-%284K%29-TVs-with-4K-GUI).
 
-However, if you only have a Full HD (1080p) TV or if you have a UHD TV but only watch 1080p content in any of your apps on your Shield, then you should use the settings below. 
-
-If you have a UHD TV, you will have the added benefit of using your UHD TV's upscalers. These may provide better video quality of 1080p content displayed at 4K resolution than SPMC's upscalers. Additionally, content below 1080p such as 480i and 720p will be upscaled to 1080p by SPMC using the HQ scalers.  _"Lanczos3 - optimised"_ is the best video scaling method. 
-
-_"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because it is not hardware accelerated, it is best for SD resolution videos.  For HD videos, _"Bob Inverted"_ is the best deinterlacing for HD videos because it is hardware accelerated.
+However, if you only have a Full HD (1080p) TV or if you have a UHD TV but only watch 1080p content in all of your apps on your Shield, then you should use the settings below. 
 
 
 # UHD TV Settings
@@ -37,15 +33,6 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 ## System > Video Output
 * set GUI resolution limit = **1080**
 * vertical blank sync = **always enabled**
-
-## OSD Video Settings
-While playing a video, go to the OSD > Video Settings
-* deinterlace video = **auto**
-* deinterlace method (SD/software accelerated) = **yadif (2x)**
-* deinterlace method (HD/hardware accelerated) = **bob inverted**
-* video scaling method = **lanczos3 - optimised**
-
-Be sure to set these as the **default for all media**!
 
 ## advancedsettings.xml
 Finally, add the following lines to your advancedsettings.xml. The fanart and imageres elements are optional but enable higher quality jacket art and wallpapers, depending on your source images.
