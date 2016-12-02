@@ -1,6 +1,6 @@
-# Overview
-
 **THIS DOCUMENT IS A WORK IN PROGRESS. IT NEEDS TO BE UPDATED FOR BOTH FTV1 and FTV2, RESPECTIVELY**
+
+# Overview
 
 SPMC supports decoding of many audio formats to uncompressed PCM, which can be processed by most TVs, soundbars, and AV receivers. If SPMC supports PCM decoding of a desired audio codec, there is no sonic difference between PCM output (where SPMC is doing the decoding) and bitstream output (where your AVR is doing the decoding).
 
