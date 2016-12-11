@@ -1,5 +1,7 @@
 Welcome to the SPMC wiki!
 
+[[SPMC project way of working]]
+
 == FAQ ==
 * [[Recommended video settings for Android devices (other than Nvidia Shield)]]
 * [[How to specify the location of SPMC data?]]
