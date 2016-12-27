@@ -11,6 +11,7 @@ Welcome to the SPMC wiki!
 * [[How to disable the "double-back on home to minimize" feature]]
 * [[How to use the voice recognition feature]]
 * [[Where is the "Clean Thumbnails" option?]]
+* [[How do I publish a debug log?]]
 
 == Nvidia Shield Specific ==
 * [[Recommended video settings for SPMC, NVIDIA Shield TV and UHD (4K) TVs with 4K GUI]]
