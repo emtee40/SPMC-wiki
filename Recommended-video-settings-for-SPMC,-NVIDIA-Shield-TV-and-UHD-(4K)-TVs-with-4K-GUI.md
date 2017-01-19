@@ -76,7 +76,7 @@ Finally, add the following lines to your advancedsettings.xml. The fanart and im
 # Other / Known Issues
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
 
-If your video is choppy or pausing, it may be due to another Android program. For example, certain popular Android FTP utilities appear to cause this issue. You may be better off using the Shield's native SMB service instead.
+If your video is choppy or pausing, it may be due to another Android program. For example, certain popular Android FTP utilities appear to cause this issue. You may be better off using the Shield's native SMB service instead. Similar issues have been seen with Live Channels and popular tuner plugins. With Shield Experience 5.0.1, you can double-click O to go to the recent apps page and close problematic apps.
 
 With Shield Experience v3.2, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). This appears to be fixed in Shield Experience v5.0.1.
 
