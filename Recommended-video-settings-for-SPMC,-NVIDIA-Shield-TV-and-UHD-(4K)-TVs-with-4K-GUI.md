@@ -1,3 +1,5 @@
+**Updated as of Shield Experience 5.0.1 and SPMC 16.5.5. Note: with SPMC 16.5.x, you must disable MediaCodec (Surface) to use upscaling or deinterlacing**
+
 # Overview
 SPMC supports rendering of both the graphical user interface and video in up to 4K (2160p) resolution if you have a high-end Android TV settop box like the NVIDIA Shield TV and a UHD (4K) TV. 
 
@@ -8,9 +10,6 @@ The tradeoff is that the Kodi app--not your UHD TV--will upsample videos below 2
 _"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because it is not hardware accelerated, it is best for SD resolution videos.  For HD videos, _"Bob Inverted"_ is the best deinterlacing for HD videos because it is hardware accelerated.
 
 As of Shield Android TV software v3.2, you can also watch HDR videos in SPMC. HDR is active only for 4K 50/59.94/60Hz.
-
-**Note: As of SPMC 16.5, you must disable MediaCodec (Surface) to use upscaling or deinterlacing**
-
 
 # UHD TV Settings
 Confirm whether your UHD TV supports the HDMI 2.0 specifications and can accept UHD (50P/60P 4:4:4, 4:2:2 and 4:2:0) signals. The default setting of many UHD TVs may be configured for HD/FHD signals with limited range of RGB (16-235). You may need to change the HDMI UHD Color setting to **on** for the full range of RGB (0-255).
@@ -77,8 +76,10 @@ Finally, add the following lines to your advancedsettings.xml. The fanart and im
 # Other / Known Issues
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
 
-With Shield Android TV software v3.2, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). 
+If your video is choppy or pausing, it may be due to another Android program. For example, certain popular Android FTP utilities appear to cause this issue. You may be better off using the Shield's native SMB service instead.
 
-Refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. 
+With Shield Experience v3.2, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). This appears to be fixed in Shield Experience v5.0.1.
 
-HDR modes will default to 10-bit Rec. 2020 YCbCr 4:2:0 (provided the display has support). The Shield will switch to 4K 23.976 RGB and then back to YCbCr. 
+Refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. This appears to be fixed in Shield Experience v5.0.1.
+
+HDR modes will default to 10-bit Rec. 2020 YCbCr 4:2:0 (provided the display has support). 
