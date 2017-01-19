@@ -82,4 +82,4 @@ With Shield Experience v3.2, refresh rate switching defaults to RGB. It override
 
 Refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. This appears to be fixed in Shield Experience v5.0.1.
 
-HDR modes will default to 10-bit Rec. 2020 YCbCr 4:2:0 (provided the display has support). 
+HDR modes will default to 10-bit Rec. 2020 YCbCr 4:2:0 (provided your display supports that). As of Shield Experience 5.0.1, HDR-10 HDR is supported but not DolbyVision. You may separately need to update your display firmware. For example, early Vizio Smartcast display firmware versions supported DolbyVision and not HDR-10.
