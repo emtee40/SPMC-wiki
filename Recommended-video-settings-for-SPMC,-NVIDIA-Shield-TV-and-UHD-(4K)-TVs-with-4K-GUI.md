@@ -24,7 +24,7 @@ If you are using an AV receiver, make sure that your AVR is configured to suppor
 # Android TV Settings
 Confirm that your Shield TV is configured to permit the highest possible video output resolution:
 ```
-Settings > Device > HDMI > 4K 60Hz (Recommended)
+Settings > Device > HDMI > 4K 59.940Hz (Recommended)
 ```
 
 Additionally, Dynamic Range should be set to **auto**. If you UHD TV can be set to the full range of RGB, then the Shield will also be in the full range.
@@ -52,11 +52,11 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 ## OSD Video Settings
 While playing a video, go to the OSD > Video Settings
 * deinterlace video = **auto**
-* deinterlace method (SD/software accelerated) = **yadif (2x)**
+* deinterlace method (SD/software) = **yadif (2x)**
 * deinterlace method (HD/hardware accelerated) = **bob inverted**
 * video scaling method = **lanczos3 - optimised**
 
-Be sure to set these as the **default for all media**!
+Be sure to set these as the **default for all media**! Certain options, such as yadif, will not be visible unless you are watching a video using software decoding.
 
 ## advancedsettings.xml
 Finally, add the following lines to your advancedsettings.xml. The fanart and imageres elements are optional but enable higher quality jacket art and wallpapers, depending on your source images.
