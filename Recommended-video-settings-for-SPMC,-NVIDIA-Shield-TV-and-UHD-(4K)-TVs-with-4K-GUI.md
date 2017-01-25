@@ -1,6 +1,6 @@
-**Updated as of Shield Experience 5.0.1 and SPMC 16.5.5. 
+**Updated as of Shield Experience 5.0.1 and SPMC 16.5.5.** 
 
-Note: with SPMC 16.5.x, you must disable MediaCodec (Surface) to use upscaling or deinterlacing. However, if you disable MediaCodec (Surface), then HDR content will not be displayed in HDR.**
+**Note: with SPMC 16.5.x, you must disable MediaCodec (Surface) to use upscaling or deinterlacing. However, if you disable MediaCodec (Surface), then HDR content will not be displayed in HDR.**
 
 # Overview
 SPMC supports rendering of both the graphical user interface and video in up to 4K (2160p) resolution if you have a high-end Android TV settop box like the NVIDIA Shield TV and a UHD (4K) TV. 
