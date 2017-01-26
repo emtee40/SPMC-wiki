@@ -12,6 +12,7 @@ Welcome to the SPMC wiki!
 * [[How to use the voice recognition feature]]
 * [[Where is the "Clean Thumbnails" option?]]
 * [[How do I publish a debug log?]]
+* [[How do I get Hue, boblight, hyperion... to work with Mediacodec Surface?]]
 
 == Nvidia Shield Specific ==
 * [[Recommended video settings for SPMC, NVIDIA Shield TV and UHD (4K) TVs with 4K GUI]]
