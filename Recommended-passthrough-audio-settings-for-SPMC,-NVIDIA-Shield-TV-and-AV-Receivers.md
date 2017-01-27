@@ -1,3 +1,7 @@
+**Updated as of Shield Experience 5.0.2 and SPMC 16.5.5 / 16.6beta. Please upgrade to SE 5.02 because this resolves a number of audio issues.**
+
+**If you are a 16.6 beta tester, then you should set use IEC rather than RAW for passthrough.** 
+
 # Overview
 SPMC supports decoding of many audio formats to uncompressed PCM, which can be processed by most TVs, soundbars, and AV receivers. If SPMC supports PCM decoding of a desired audio codec, there is no sonic difference between PCM output (where SPMC is doing the decoding) and bitstream output (where your AVR is doing the decoding).
 
@@ -15,7 +19,7 @@ Finally, make sure you are using Shield Android TV software v3.2 or later.
 # SPMC Settings
 Enable 'expert' in the settings menu. Then, make the following changes:
 
-* Audio output device = **Android, RAW Passthrough**
+* Audio output device = **Android, RAW Passthrough for 16.5**
 * Number of channels = **7.1** [your receiver should be able to handle this input regardless of your actual speaker configuration]
 * Output configuration = **Best Match** 
 * Stereo upmix = **off**
