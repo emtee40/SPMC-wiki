@@ -1,3 +1,5 @@
+**Updated as of Shield Experience 5.0.2 and SPMC 16.5.5 and the 16.6 beta**
+
 # Overview
 SPMC supports rendering of both the graphical user interface and video in up to 4K (2160p) resolution if you have a high-end Android TV settop box like the NVIDIA Shield TV and a UHD (4K) TV. If you have a UHD TV and you watch 2160p (4K) content (e.g. HDR content in SPMC, 4K in YouTube app, or 4K in the Netflix app), then you should use [these instructions instead](https://github.com/koying/SPMC/wiki/Recommended-video-settings-for-SPMC%2C-NVIDIA-Shield-TV-and-UHD-%284K%29-TVs-with-4K-GUI).
 
@@ -19,19 +21,30 @@ Settings > Display & Sound > Resolution > 1080p 59.940Hz
 Enable 'expert' in the settings menu. Then, make the following changes:
 
 ## Videos > Playback
-* adjust display refresh rate = **always**
+* adjust display refresh rate = **on start / stop**
+* pause during refresh change = **3.0 seconds**
 * sync playback to display = **off**
 
 ## Videos > Acceleration
-* allow hardware acceleration - Mediacodec (Surface) = **on**
+* enable HQ scalers = **low**
+* allow hardware acceleration - Mediacodec (Surface) = **off**
 * allow hardware acceleration - Mediacodec = **on**
-* accelerate MPEG2 = **always**
-* accelerate MPEG4 = **always**
-* accelerate h264 = **always**
+* accelerate MPEG2 = **HD and up**
+* accelerate MPEG4 = **HD and up**
+* accelerate h264 = **HD and up**
+* accelerate hevc = **HD and up**
 
 ## System > Video Output
 * set GUI resolution limit = **1080**
 * vertical blank sync = **always enabled**
+
+## OSD Video Settings
+While playing a video, go to the OSD > Video Settings
+* deinterlace video = **auto**
+* deinterlace method (SD/software) = **yadif (2x)**
+* deinterlace method (HD/hardware accelerated) = **bob inverted**
+
+Be sure to set these as the **default for all media**! Certain options, such as yadif, will not be visible unless you are watching a video using software decoding.
 
 ## advancedsettings.xml
 Finally, add the following lines to your advancedsettings.xml. The fanart and imageres elements are optional but enable higher quality jacket art and wallpapers, depending on your source images.
@@ -48,6 +61,8 @@ Finally, add the following lines to your advancedsettings.xml. The fanart and im
 # Other / Known Issues
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
 
-With Shield Android TV software v3.2 and 3.3, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). 
+If your video is choppy or pausing, it may be due to another Android program. For example, certain popular Android FTP utilities appear to cause this issue. You are better off using the Shield's native SMB service instead. Similar issues have been seen with Live Channels and popular TV tuner plugins. With Shield Experience 5.0.1, you can double-click O to go to the recent apps page and close problematic apps. Additionally, we now recommend adding a delay between 2.5 and 4 seconds during a refresh rate change.  
 
-Refresh rate switching may not work properly if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. 
+With Shield Experience v3.2, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). This appears to be fixed in Shield Experience v5.0.x.
+
+With Shield Experience v3.2, refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. This appears to be fixed in Shield Experience v5.0.x.
