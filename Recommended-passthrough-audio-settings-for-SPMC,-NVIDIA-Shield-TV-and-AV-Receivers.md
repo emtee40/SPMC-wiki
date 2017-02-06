@@ -21,7 +21,7 @@ Finally, make sure you are using Shield Android TV software v3.2 or later.
 # SPMC Settings
 Enable 'expert' in the settings menu. Then, make the following changes:
 
-* Audio output device = **Android, RAW Passthrough** [or IEC if using the 16.6 beta and Shield firmware 5.0.x]
+* Audio output device = **Android, RAW Passthrough** [or **IEC** if using the 16.6 beta and Shield firmware 5.0.x]
 * Number of channels = **7.1** [your receiver should be able to handle this input regardless of your actual speaker configuration. This number will be disregarded for any codec that your receiver supports for passthrough]
 * Output configuration = **Best Match** 
 * Stereo upmix = **off**
@@ -31,7 +31,7 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 * Keep audio devices alive = **10 Minutes** [this will prevent your AVR from going to sleep]
 * Enable audio DSP processing = **off**
 * Enable passthrough = **on**
-* Passthrough output device = **Android, RAW Passthrough** [or IEC if using the 16.6 beta and Shield firmware 5.0.x]
+* Passthrough output device = **Android, RAW Passthrough** [or **IEC** if using the 16.6 beta and Shield firmware 5.0.x]
 
 Check your AVR receiver's user manual to confirm that it supports each of the following audio codecs and enable them accordingly:
 
