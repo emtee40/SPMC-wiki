@@ -11,7 +11,7 @@ Because your content is limited to 1080p, your TV should be configured with limi
 # Android TV Settings
 Confirm that your Shield TV is configured to limit the video output resolution to 1080p:
 ```
-Settings > Device > HDMI > 1080p
+Settings > Display & Sound > Resolution > 1080p 59.940Hz
 ```
 
 
@@ -23,12 +23,11 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 * sync playback to display = **off**
 
 ## Videos > Acceleration
-* enable HQ scalers = **low**
 * allow hardware acceleration - Mediacodec (Surface) = **on**
 * allow hardware acceleration - Mediacodec = **on**
-* accelerate MPEG2 = **HD and up**
-* accelerate MPEG4 = **HD and up**
-* accelerate h264 = **HD and up**
+* accelerate MPEG2 = **always**
+* accelerate MPEG4 = **always**
+* accelerate h264 = **always**
 
 ## System > Video Output
 * set GUI resolution limit = **1080**
@@ -39,9 +38,6 @@ Finally, add the following lines to your advancedsettings.xml. The fanart and im
 
 ```
 <advancedsettings>
-<video>
-<enablehighqualityhwscalers>true</enablehighqualityhwscalers>
-</video>
 <fanartres>1080</fanartres>
 <imageres>1080</imageres>
 </advancedsettings>
@@ -54,6 +50,4 @@ Videos > Playback > sync playback to display should always be set to **off** whe
 
 With Shield Android TV software v3.2 and 3.3, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). 
 
-Refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. 
-
-HDR is active only in 4K at 40/59.94/60Hz. [See these instructions for 4K](https://github.com/koying/SPMC/wiki/Recommended-video-settings-for-SPMC%2C-NVIDIA-Shield-TV-and-UHD-%284K%29-TVs-with-4K-GUI).
+Refresh rate switching may not work properly if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. 
