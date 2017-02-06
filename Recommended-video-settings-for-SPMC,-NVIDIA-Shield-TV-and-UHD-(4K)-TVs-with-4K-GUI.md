@@ -1,4 +1,4 @@
-**Updated as of Shield Experience 5.0.2 and SPMC 16.5.5.** 
+**Updated as of Shield Experience 5.0.2 and SPMC 16.5.5 and the 16.6 beta** 
 
 **Note: with SPMC 16.5.x, you must disable MediaCodec (Surface) to use upscaling or deinterlacing. However, if you disable MediaCodec (Surface), then HDR content will not be displayed in HDR.**
 
@@ -14,13 +14,13 @@ _"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because
 As of Shield Android TV software v3.2, you can also watch HDR videos in SPMC. HDR is active only for 4K 50/59.94/60Hz.
 
 # UHD TV Settings
-Confirm whether your UHD TV supports the HDMI 2.0 specifications and can accept UHD (50P/60P 4:4:4, 4:2:2 and 4:2:0) signals. The default setting of many UHD TVs may be configured for HD/FHD signals with limited range of RGB (16-235). You may need to change the HDMI UHD Color setting to **on** for the full range of RGB (0-255).
+Confirm whether your UHD TV supports the HDMI 2.0 specifications and can accept UHD (50P/60P 4:4:4, 4:2:2 and 4:2:0) signals. The default setting of many UHD TVs may be configured for HD/FHD signals with limited range of RGB (16-235). Depending on your TV vendor, you may need to change the HDMI UHD Color setting to **on** or Input > HDMI Color Subsampling on for a given HDMI input, to enable the full range of RGB (0-255).
 
 Depending on your TV, the specific HDMI port may make a difference. Double-check your user manual to confirm that you have plugged your NVIDIA Shield into a HDMI 2.0 port supporting HDCP 2.2.
 
 
 # AV Receiver Settings
-If you are using an AV receiver, make sure that your AVR is configured to support 4K signal passthrough but is not modifying the video resolution.
+If you are using an AV receiver, make sure that your AVR is configured to support 4K signal passthrough but is not modifying the video resolution. You should use an HDMI 2.0 port supporting HDCP 2.2 on your AVR.
 
 
 # Android TV Settings
@@ -29,7 +29,18 @@ Confirm that your Shield TV is configured to permit the highest possible video o
 Settings > Display & Sound > Resolution > 4K 59.940Hz (Recommended)
 ```
 
-Additionally, Dynamic Range should be set to **auto**. If you UHD TV can be set to the full range of RGB, then you should set the Shield to the **full** range. The newest displays may benefit from tweaking the Shield's color space settings. If available, you should set your display for YCbCr 4:2:2 12-bit Rec.2020. 
+Additionally, Dynamic Range should be set to **auto**. If you UHD TV can be set to the full range of RGB, then you should set the Shield to the **full** range. 
+
+The newest displays may benefit from tweaking the Shield's color space settings. If available, you should set your display for the highest available option:
+
+* YCbCr 4:2:2 12-bit Rec.2020
+* YCbCr 4:2:0 10-bit Rec.2020
+* YCbCr 4:2:2 12-bit Rec.709
+* YCbCr 4:2:0 10-bit Rec.709
+* YCbCr 4:4:4 8-bit Rec.709
+* YCbCr 4:2:0 8-bit Rec.709
+
+UHD sources may be up to 10-bit Rec.2020. Blu-ray sources are 8-bit. Higher bit rates have more color values and are less susceptible to banding. 4:4:4 is a full bandwidth signal, 4:2:2 occupies 2/3rds the space, 4:2:0 occupies 1/2 the space. In addition to the HDMI ports on your TV, AVR, and Shield, the type (HDMI 1.4 v 2.0) and the length of HDMI cable will impact your available options.
 
 
 # SPMC Settings
