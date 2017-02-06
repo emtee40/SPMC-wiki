@@ -49,7 +49,7 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 
 ## Videos > Playback
 * adjust display refresh rate = **on start / stop**
-* pause during refresh change = *3.0 seconds*
+* pause during refresh change = **3.0 seconds**
 * sync playback to display = **off**
 
 ## Videos > Acceleration
