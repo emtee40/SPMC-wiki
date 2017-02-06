@@ -26,10 +26,10 @@ If you are using an AV receiver, make sure that your AVR is configured to suppor
 # Android TV Settings
 Confirm that your Shield TV is configured to permit the highest possible video output resolution:
 ```
-Settings > Device > HDMI > 4K 59.940Hz (Recommended)
+Settings > Display & Sound > Resolution > 4K 59.940Hz (Recommended)
 ```
 
-Additionally, Dynamic Range should be set to **auto**. If you UHD TV can be set to the full range of RGB, then the Shield will also be in the full range.
+Additionally, Dynamic Range should be set to **auto**. If you UHD TV can be set to the full range of RGB, then you should set the Shield to the **full** range. The newest displays may benefit from tweaking the Shield's color space settings. If available, you should set your display for YCbCr 4:2:2 12-bit Rec.2020. 
 
 
 # SPMC Settings
