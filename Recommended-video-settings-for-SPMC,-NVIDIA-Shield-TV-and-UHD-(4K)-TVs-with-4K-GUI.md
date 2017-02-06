@@ -28,7 +28,7 @@ Confirm that your Shield TV is configured to permit the highest possible video o
 Settings > Display & Sound > Resolution > 4K 59.940Hz (Recommended)
 ```
 
-Additionally, Dynamic Range should be set to **auto**. If you UHD TV can be set to the full range of RGB, then you should set the Shield to the **full** range. 
+Additionally, Dynamic Range should be set to **auto**. If your UHD TV can be set to the full range of RGB, then you should set the Shield to the **full** range. 
 
 The newest displays may benefit from tweaking the Shield's color space settings. If available, you should set your display for the highest available option:
 
@@ -39,7 +39,9 @@ The newest displays may benefit from tweaking the Shield's color space settings.
 * YCbCr 4:4:4 8-bit Rec.709
 * YCbCr 4:2:0 8-bit Rec.709
 
-UHD sources may be up to 10-bit Rec.2020. Blu-ray sources are 8-bit. Higher bit rates have more color values and are less susceptible to banding. 4:4:4 is a full bandwidth signal, 4:2:2 occupies 2/3rds the space, 4:2:0 occupies 1/2 the space. In addition to the HDMI ports on your TV, AVR, and Shield, the type (HDMI 1.4 v 2.0) and the length of HDMI cable will impact your available options.
+UHD sources may be up to 10-bit Rec.2020. Blu-ray sources are 8-bit. Online streaming sources are probably 8-bit. Higher bit rates have more color values and are less susceptible to banding. 
+
+**Color subsampling:** 4:4:4 is a full bandwidth signal; 4:2:2 needs 2/3rds the bandwidth; and 4:2:0 needs 1/2 the bandwidth. In addition to the HDMI ports on your TV, AVR, and Shield, the type (HDMI 1.4 v 2.0) and the length of HDMI cable will impact your available options.
 
 
 # SPMC Settings
@@ -90,12 +92,10 @@ Finally, add the following lines to your advancedsettings.xml. The fanart and im
 # Other / Known Issues
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
 
-If your video is choppy or pausing, it may be due to another Android program. For example, certain popular Android FTP utilities appear to cause this issue. You may be better off using the Shield's native SMB service instead. Similar issues have been seen with Live Channels and popular tuner plugins. With Shield Experience 5.0.1, you can double-click O to go to the recent apps page and close problematic apps.
+If your video is choppy or pausing, it may be due to another Android program. For example, certain popular Android FTP utilities appear to cause this issue. You are better off using the Shield's native SMB service instead. Similar issues have been seen with Live Channels and popular TV tuner plugins. With Shield Experience 5.0.1, you can double-click O to go to the recent apps page and close problematic apps. Additionally, we now recommend adding a delay between 2.5 and 4 seconds during a refresh rate change.  
 
-Additionally, we now recommend adding a delay between 2.5 and 4 seconds during a refresh rate change.  
+With Shield Experience v3.2, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). This appears to be fixed in Shield Experience v5.0.x.
 
-With Shield Experience v3.2, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). This appears to be fixed in Shield Experience v5.0.1.
+With Shield Experience v3.2, refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. This appears to be fixed in Shield Experience v5.0.x.
 
-With Shield Experience v3.2, refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. This appears to be fixed in Shield Experience v5.0.1.
-
-HDR modes will default to 10-bit Rec. 2020 YCbCr 4:2:0 (provided your display supports that). As of Shield Experience 5.0.1, HDR-10 HDR is supported but not DolbyVision. You may separately need to update your display firmware. For example, early Vizio Smartcast display firmware versions supported DolbyVision and not HDR-10.
+HDR modes will default to 10-bit Rec. 2020 YCbCr 4:2:0 (provided your display supports that). As of Shield Experience 5.0.x, HDR-10 HDR is supported but not DolbyVision. You may separately need to update your display firmware. For example, early Vizio Smartcast display firmware versions supported DolbyVision and not HDR-10.
