@@ -15,8 +15,7 @@ _"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because
 # UHD TV Settings
 Depending on your TV vendor, you may need to change the HDMI UHD Color setting to **on** (Samsung), Input > 'HDMI Color Subsampling' to **on** (Vizio) or 'Enhanced HDMI' to **on** (Sony) for a given HDMI input.
 
-Depending on your TV, the specific HDMI port may make a difference. Double-check your user manual to confirm that you have plugged your NVIDIA Shield into a HDMI 2.0 port supporting HDCP 2.2.
-
+Depending on your TV, the specific HDMI port may make a difference. Double-check your user manual to confirm that you have plugged your NVIDIA Shield into a HDMI 2.0 port supporting HDCP 2.2. In addition to the HDMI ports on your TV, AVR, and Shield, the type (HDMI 1.4 v 2.0) and the length of HDMI cable will impact your available options. Further, HDR requires HDMI 2.0a.
 
 # AV Receiver Settings
 If you are using an AV receiver, make sure that your AVR is configured to support 4K signal passthrough but is not modifying the video resolution. You should use an HDMI 2.0 port supporting HDCP 2.2 on your AVR.
@@ -42,7 +41,7 @@ Settings > Display & Sound > Resolution > 4K 59.940Hz (Recommended)
 UHD sources may be up to 10-bit Rec.2020. Blu-ray sources are 8-bit. Online streaming sources are probably 8-bit. Higher bit rates have more color values and are less susceptible to banding. 
 
 4:4:4 is a full bandwidth signal, with full (Cr, Cb) vertical and horizontal resolution. 4:2:2 needs 2/3rds the bandwidth, with ½ horizontal resolution and full vertical resolution. 4:2:0 needs ½ the bandwidth, with ½ horizontal resolution and
-½ vertical resolution. In addition to the HDMI ports on your TV, AVR, and Shield, the type (HDMI 1.4 v 2.0) and the length of HDMI cable will impact your available options.
+½ vertical resolution. 
 
 
 # SPMC Settings
