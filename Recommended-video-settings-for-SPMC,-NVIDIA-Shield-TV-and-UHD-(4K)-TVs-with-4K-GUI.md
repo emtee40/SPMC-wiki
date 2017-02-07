@@ -15,9 +15,9 @@ The tradeoff is that the Kodi app--not your UHD TV--will upsample videos below 2
 # UHD TV Settings
 Depending on your TV vendor, you may need to change the HDMI UHD Color setting to **on** _(Samsung)_, Input > 'HDMI Color Subsampling' to **on** _(Vizio)_ or 'Enhanced HDMI' to **on** _(Sony)_ for a given HDMI input.
 
-Depending on your TV, the specific HDMI port may make a difference. Double-check your user manual to confirm that you have plugged your NVIDIA Shield into a HDMI 2.0 port supporting HDCP 2.2. 
+The specific HDMI port may make a difference on your TV. Double-check your user manual to confirm that you have plugged your NVIDIA Shield into a HDMI 2.0 port supporting HDCP 2.2. 
 
-In addition to the HDMI ports on your TV, AVR, and Shield, the type (HDMI 1.4 v 2.0) and the length of HDMI cable will impact your available options. Further, HDR requires HDMI 2.0a.
+In addition to the HDMI ports on your TV, AVR, and Shield, the type (HDMI 1.4 v 2.0) and the length of HDMI cable will impact your available options. HDR requires HDMI 2.0a.
 
 # AV Receiver Settings
 If you are using an AV receiver, make sure that your AVR is configured to support 4K signal passthrough and is not modifying the video resolution (disable upscaling). You should use an HDMI 2.0a port supporting HDCP 2.2 on your AVR.
