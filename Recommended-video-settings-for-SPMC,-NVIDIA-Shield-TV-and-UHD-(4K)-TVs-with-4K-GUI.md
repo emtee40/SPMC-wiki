@@ -7,9 +7,9 @@ SPMC supports rendering of both the graphical user interface and video in up to 
 
 If you have a UHD TV, you should configure the Shield TV settop for the maximum 4K output. With the configuration below, you can then view the SPMC GUI at 2160p. In addition to SPMC, you can watch 4K (and potentially HDR) content in other apps such as Netflix, Amazon, VUDU, and YouTube. 
 
-The tradeoff is that the Kodi app--not your UHD TV--will upsample videos below 2160p. As of SPMC 16.4.1 and Shield Android TV software v3.2, new HQ scalers are an option to improve video quality. _"Lanczos3 - optimised"_ is the best video scaling method. 
+The tradeoff is that the Kodi app--not your UHD TV--will upsample videos below 2160p. SPMC has HQ scalers that can be enabled to improve video quality. _"Lanczos3 - optimised"_ is the best HQ video scaling method. 
 
-_"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because it is not hardware accelerated, it is best for SD resolution videos.  For HD videos, _"Bob Inverted"_ is the best deinterlacing for HD videos because it is hardware accelerated.
+_"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because it is not hardware accelerated, it is best for SD resolution videos. _"Bob Inverted"_ is the best deinterlacing for HD videos because it is hardware accelerated.
 
 
 # UHD TV Settings
