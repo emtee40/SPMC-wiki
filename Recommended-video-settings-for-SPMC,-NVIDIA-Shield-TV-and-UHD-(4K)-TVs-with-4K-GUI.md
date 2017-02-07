@@ -15,10 +15,12 @@ _"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because
 # UHD TV Settings
 Depending on your TV vendor, you may need to change the HDMI UHD Color setting to **on** (Samsung), Input > 'HDMI Color Subsampling' to **on** (Vizio) or 'Enhanced HDMI' to **on** (Sony) for a given HDMI input.
 
-Depending on your TV, the specific HDMI port may make a difference. Double-check your user manual to confirm that you have plugged your NVIDIA Shield into a HDMI 2.0 port supporting HDCP 2.2. In addition to the HDMI ports on your TV, AVR, and Shield, the type (HDMI 1.4 v 2.0) and the length of HDMI cable will impact your available options. Further, HDR requires HDMI 2.0a.
+Depending on your TV, the specific HDMI port may make a difference. Double-check your user manual to confirm that you have plugged your NVIDIA Shield into a HDMI 2.0 port supporting HDCP 2.2. 
+
+In addition to the HDMI ports on your TV, AVR, and Shield, the type (HDMI 1.4 v 2.0) and the length of HDMI cable will impact your available options. Further, HDR requires HDMI 2.0a.
 
 # AV Receiver Settings
-If you are using an AV receiver, make sure that your AVR is configured to support 4K signal passthrough but is not modifying the video resolution. You should use an HDMI 2.0 port supporting HDCP 2.2 on your AVR.
+If you are using an AV receiver, make sure that your AVR is configured to support 4K signal passthrough and is not modifying the video resolution (disable upscaling). You should use an HDMI 2.0a port supporting HDCP 2.2 on your AVR.
 
 
 # Android TV Settings
