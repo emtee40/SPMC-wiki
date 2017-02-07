@@ -42,7 +42,7 @@ Settings > Display & Sound > Resolution > 4K 59.940Hz (Recommended)
 
 UHD sources may be up to 10-bit Rec.2020. Blu-ray sources are 8-bit. Online streaming sources are probably 8-bit. Higher bit rates have more color values and are less susceptible to banding. 
 
-4:4:4 is a full bandwidth signal, with full (Cr, Cb) vertical and horizontal resolution. 4:2:2 needs 2/3rds the bandwidth, with ½ horizontal resolution and full vertical resolution. 4:2:0 needs ½ the bandwidth, with ½ horizontal resolution and
+4:4:4 is a full bandwidth signal, with full (Cb, Cr) vertical and horizontal resolution. 4:2:2 needs 2/3rds the bandwidth, with ½ horizontal resolution and full vertical resolution. 4:2:0 needs ½ the bandwidth, with ½ horizontal resolution and
 ½ vertical resolution. 
 
 
