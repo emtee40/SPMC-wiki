@@ -28,9 +28,9 @@ Confirm that your Shield TV is configured to permit the highest possible video o
 Settings > Display & Sound > Resolution > 4K 59.940Hz (Recommended)
 ```
 
-Additionally, Dynamic Range should be set to **auto**. If your UHD TV can be set to the full range of RGB, then you should set the Shield to the **full** range. 
+**RGB output:** Dynamic Range should be set to **auto**. If your UHD TV can be set to the full range of RGB, then you should set the Shield to the **full** range. 
 
-The newest displays may benefit from tweaking the Shield's color space settings. If available, you should set your display for the highest available option:
+**YCbCr output**: the newest displays may benefit from tweaking the Shield's color space settings. If available, you should set your display for the highest available option:
 
 * YCbCr 4:2:2 12-bit Rec.2020
 * YCbCr 4:2:0 10-bit Rec.2020
