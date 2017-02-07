@@ -51,3 +51,10 @@ However, many TVs are two-channel (2.0) only via ARC. And some TVs will send 5.1
 
 # Other
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
+
+Additionally, we recommend adding a delay between 2.5 and 4 seconds during a refresh rate change. 
+
+```
+adjust display refresh rate = on start / stop
+pause during refresh change = 3.0 seconds 
+```
