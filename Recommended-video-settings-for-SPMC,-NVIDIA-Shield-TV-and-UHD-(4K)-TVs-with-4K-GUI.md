@@ -13,7 +13,7 @@ _"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because
 
 
 # UHD TV Settings
-Confirm whether your UHD TV supports the HDMI 2.0 specifications and can accept UHD (50P/60P 4:4:4, 4:2:2 and 4:2:0) signals. The default setting of many UHD TVs may be configured for HD/FHD signals with limited range of RGB (16-235). Depending on your TV vendor, you may need to change the HDMI UHD Color setting to **on** or Input > HDMI Color Subsampling on for a given HDMI input, to enable the full range of RGB (0-255).
+Confirm whether your UHD TV supports the HDMI 2.0 specifications and can accept UHD (50P/60P 4:4:4, 4:2:2 and 4:2:0) signals. The default setting of many UHD TVs may be configured for HD/FHD signals with limited range of RGB (16-235). Depending on your TV vendor, you may need to change the HDMI UHD Color setting to **on** (Samsung), Input > 'HDMI Color Subsampling' to **on** (Vizio) or 'Enhanced HDMI' to **on** (Sony) for a given HDMI input, to enable the full range of RGB (0-255).
 
 Depending on your TV, the specific HDMI port may make a difference. Double-check your user manual to confirm that you have plugged your NVIDIA Shield into a HDMI 2.0 port supporting HDCP 2.2.
 
