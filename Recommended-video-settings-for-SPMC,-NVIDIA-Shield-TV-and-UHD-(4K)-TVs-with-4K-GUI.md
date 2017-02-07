@@ -7,13 +7,13 @@ SPMC supports rendering of both the graphical user interface and video in up to 
 
 If you have a UHD TV, you should configure the Shield TV settop for the maximum 4K output. With the configuration below, you can then view the SPMC GUI at 2160p. In addition to SPMC, you can watch 4K (and potentially HDR) content in other apps such as Netflix, Amazon, VUDU, and YouTube. 
 
-The tradeoff is that the Kodi app--not your UHD TV--will upsample videos below 2160p. SPMC has HQ scalers that can be enabled to improve video quality. _"Lanczos3 - optimised"_ is the best HQ video scaling method. 
+The tradeoff is that the Kodi app--not your UHD TV--will upsample videos below 2160p. SPMC has HQ scalers that can be enabled to improve video quality. **"Lanczos3 - optimised"** is the best HQ video scaling method. 
 
-_"Yadif (2x)"_ is the best deinterlacing available on the Shield TV but, because it is not hardware accelerated, it is best for SD resolution videos. _"Bob Inverted"_ is the best deinterlacing for HD videos because it is hardware accelerated.
+**"Yadif (2x)"** is the best deinterlacing available on the Shield TV but, because it is not hardware accelerated, it is best for SD resolution videos. _"Bob Inverted"_ is the best deinterlacing for HD videos because it is hardware accelerated.
 
 
 # UHD TV Settings
-Depending on your TV vendor, you may need to change the HDMI UHD Color setting to **on** (Samsung), Input > 'HDMI Color Subsampling' to **on** (Vizio) or 'Enhanced HDMI' to **on** (Sony) for a given HDMI input.
+Depending on your TV vendor, you may need to change the HDMI UHD Color setting to **on** _(Samsung)_, Input > 'HDMI Color Subsampling' to **on** _(Vizio)_ or 'Enhanced HDMI' to **on** _(Sony)_ for a given HDMI input.
 
 Depending on your TV, the specific HDMI port may make a difference. Double-check your user manual to confirm that you have plugged your NVIDIA Shield into a HDMI 2.0 port supporting HDCP 2.2. 
 
