@@ -41,9 +41,6 @@ Check your AVR receiver's user manual to confirm that it supports each of the fo
 * TrueHD capable receiver = **on**
 * DTS-HD capable receiver = **on**
 
-
-Note that these instructions were written for Android 6.0/Shield TV 3.2.
-
 # Audio Return Channel (ARC)
 As noted above, you should use your AVR, not your TV, for HDMI input switching. One use case where this isn't feasible is if you wish to play 4K content and your AVR doesn't support either 4K or HDCP 2.2 but your TV does. In that instance, you can use Audio Return Channel to send the audio back to your AVR. You must connect your devices through ARC-enabled HDMI ports. 
 
