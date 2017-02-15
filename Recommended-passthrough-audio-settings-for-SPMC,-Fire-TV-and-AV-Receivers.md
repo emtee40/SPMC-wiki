@@ -15,6 +15,32 @@ Make sure you connect your Amazon Fire TV directly to your AV Receiver using an 
 
 Finally, make sure you are using Fire TV software v________ or later.
 
+codec \ device | AFTV2 | AFTV1 | FireStick1
+-------------- | ----- | ----- | ----------
+DD (AC3) | P | P | 1
+DD-EX |  P  |  1  |  1
+DD+ (E-AC) |  1  |  1  |  1
+TrueHD |  N  |  N  |  N
+Atmos |  N  |  N  |  N
+DTS |  P  |  P  |  P
+DTS 96/24 |  P  |  P  |  P
+DTS-ES Discrete |  P  |  P  |  P
+DTS-ES Matrix |  P  |  P  |  P
+DTS-HD |  N  |  N  |  N
+DTS:X |  2  |  2  |  2
+
+P. Passthrough
+N. Passthrough not available, PCM software decoded
+1. Passthrough did not work, no audio. Need debug
+2. My AVR does not support DTS:X
+
+Although there is no option for DTS-HD passthrough, it follows the DTS flag and passes through as DTS 5.1. So to use the proper 7.1 decoding, disable DTS passthrough and enable Support 8 channel DTS-HD audio decoding instead.
+
+Atmos is decoded as 7.1 PCM.
+
+DD-EX uses the DD passthrough flag. DTS 96/24 and both DTS-ES use the DTS passthrough flag.
+
+
 # SPMC Settings
 Enable 'expert' in the settings menu. Then, make the following changes:
 
