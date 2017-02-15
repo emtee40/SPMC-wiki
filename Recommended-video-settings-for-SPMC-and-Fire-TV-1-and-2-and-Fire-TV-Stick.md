@@ -12,6 +12,16 @@ PATH NEEDED
 ```
 
 
+codec \ device | AFTV2 | AFTV1 | FireStick1
+-------------- | ----- | ----- | ----------
+H.263 | S | H | H
+H.264 | H | H | H
+H.265 | H | X | X
+MPEG2 | S | S | S
+VC-1 | S | S | S
+
+
+
 # SPMC Settings
 Enable 'expert' in the settings menu. Then, make the following changes:
 
