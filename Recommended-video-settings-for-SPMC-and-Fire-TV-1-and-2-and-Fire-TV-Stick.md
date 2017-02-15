@@ -1,4 +1,4 @@
-**THIS DOCUMENT IS A WORK IN PROGRESS. IT NEEDS TO BE UPDATED FOR BOTH FTV1 and FTV2, RESPECTIVELY**
+**Updated as of Shield Experience 5.0.2 and SPMC 16.5.5 and the 16.6 beta**
 
 # Overview
 # UHD TV Settings
@@ -17,9 +17,10 @@ codec \ device | AFTV2 | AFTV1 | FireStick1
 H.263 | S | H | H
 H.264 | H | H | H
 H.265 | H | X | X
-MPEG2 | S | S | S
-VC-1 | S | S | S
-
+MPEG2 (SD) | S | S | S
+MPEG2 (HD) | X | X | X
+VC-1 (SD) | S | S | S
+VC-1 (HD) | X | X | X
 
 
 # SPMC Settings
@@ -33,7 +34,6 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 * enable HQ scalers = **low**
 * allow hardware acceleration - Mediacodec (Surface) = **on**
 * allow hardware acceleration - Mediacodec = **on**
-* accelerate MPEG2 = **HD and up**
 * accelerate MPEG4 = **HD and up**
 * accelerate h264 = **HD and up**
 
