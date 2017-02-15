@@ -19,7 +19,6 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 ## Videos > Acceleration
 * allow hardware acceleration - Mediacodec (Surface) = **on**
 * allow hardware acceleration - Mediacodec = **on**
-* accelerate MPEG2 = **always**
 * accelerate MPEG4 = **always**
 * accelerate h264 = **always**
 
