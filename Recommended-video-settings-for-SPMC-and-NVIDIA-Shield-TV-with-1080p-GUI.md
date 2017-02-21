@@ -1,4 +1,4 @@
-**Updated as of Shield Experience 5.0.2 and SPMC 16.5.5 and the 16.6 beta**
+**Updated as of Shield Experience 5.1 and SPMC 16.5.5 / 16.6 beta**
 
 # Overview
 SPMC supports rendering of both the graphical user interface and video in up to 4K (2160p) resolution if you have a high-end Android TV settop box like the NVIDIA Shield TV and a UHD (4K) TV. If you have a UHD TV and you watch 2160p (4K) content (e.g. HDR content in SPMC, 4K in YouTube app, or 4K in the Netflix app), then you should use [these instructions instead](https://github.com/koying/SPMC/wiki/Recommended-video-settings-for-SPMC%2C-NVIDIA-Shield-TV-and-UHD-%284K%29-TVs-with-4K-GUI).
@@ -60,8 +60,8 @@ Finally, add the following lines to your advancedsettings.xml. The fanart and im
 # Other / Known Issues
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
 
-If your video is choppy or pausing, it may be due to another Android program. For example, certain popular Android FTP utilities appear to cause this issue. You are better off using the Shield's native SMB service instead. Similar issues have been seen with Live Channels and popular TV tuner plugins. With Shield Experience 5.0.1, you can double-click O to go to the recent apps page and close problematic apps. Additionally, we now recommend adding a delay between 2.5 and 4 seconds during a refresh rate change.  
+If your video is choppy or pausing, it may be due to another Android program. For example, certain popular Android FTP utilities appear to cause this issue. You are better off using the Shield's native SMB service instead. Similar issues have been seen with Live Channels and popular TV tuner plugins. With Shield Experience 5.1, you can double-click O to go to the recent apps page and close problematic apps. Additionally, we now recommend adding a delay between 2.5 and 4 seconds during a refresh rate change.  
 
-With Shield Experience v3.2, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). This appears to be fixed in Shield Experience v5.0.x.
+With Shield Experience v3.2, refresh rate switching defaults to RGB. It overrides the color space setting (YCbCr, RGB). This appears to be fixed in Shield Experience v5.1.
 
-With Shield Experience v3.2, refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. This appears to be fixed in Shield Experience v5.0.x.
+With Shield Experience v3.2, refresh rate switching doesn't work if the AVR is HDMI 2.0/HDCP 2.2 and the display is HDMI/HDCP 1.4. This appears to be fixed in Shield Experience v5.1.
