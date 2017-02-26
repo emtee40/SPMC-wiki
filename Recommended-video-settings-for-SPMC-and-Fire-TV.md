@@ -1,4 +1,4 @@
-**Updated as of Shield Experience 5.0.2 and SPMC 16.5.5 and the 16.6 beta**
+**Updated as of Shield Experience 5.1 and SPMC 16.5.5 and the 16.6 beta**
 
 # Overview
 # UHD TV Settings
@@ -6,11 +6,6 @@ Because your content is limited to 1080p, your TV should be configured with limi
 
 
 # Android TV Settings
-Confirm that your Fire TV is configured to limit the video output resolution to "auto":
-```
-PATH NEEDED
-```
-
 
 codec \ device | AFTV2 | AFTV1 | FireStick1
 -------------- | ----- | ----- | ----------
