@@ -20,5 +20,9 @@ Welcome to the SPMC wiki!
 * [[Recommended passthrough audio settings for SPMC, NVIDIA Shield TV and AV Receivers]]
 * [[Advanced Keymap for NVIDIA Shield TV and Logitech Harmony Hub Remote Control]]
 
+== Fire TV Specific ==
+* [[Recommended video settings for SPMC and Fire TV]]
+* [[Recommended passthrough audio settings for SPMC, Fire TV and AV Receivers]]
+
 == Other ==
 * [[Sample advancedsettings.xml]]
