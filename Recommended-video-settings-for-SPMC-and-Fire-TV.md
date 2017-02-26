@@ -41,9 +41,6 @@ Finally, add the following lines to your advancedsettings.xml. The fanart and im
 
 ```
 <advancedsettings>
-<video>
-<enablehighqualityhwscalers>true</enablehighqualityhwscalers>
-</video>
 <fanartres>1080</fanartres>
 <imageres>1080</imageres>
 </advancedsettings>
