@@ -1,4 +1,4 @@
-**Updated as of Shield Experience 5.1 and SPMC 16.5.5 and the 16.6 beta**
+**Updated as of SPMC 16.6**
 
 # Overview
 # UHD TV Settings
