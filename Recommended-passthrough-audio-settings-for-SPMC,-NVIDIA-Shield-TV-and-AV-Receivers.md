@@ -1,8 +1,6 @@
-**Updated as of Shield Experience 5.1 and SPMC 16.5.5 / 16.6beta.**
+**Updated as of Shield Experience 5.1 and SPMC 16.6**
 
-**Please upgrade to SE 5.1 because this resolves a number of audio issues. Similarly, we recommend that you adjust your display refresh rate = on start / stop, and pause during refresh change = 3.0 seconds to avoid related passthrough audio issues**
-
-**If you are a 16.6 beta tester, then you should use IEC rather than RAW for passthrough, where noted below** 
+**After you have upgraded to Shield Experience 5.1 and SPMC 16.6, you should switch your audio passthrough settings to IEC, as described below. Similarly, we recommend that you adjust your display refresh rate = on start / stop, and pause during refresh change = 3.0 seconds to avoid related passthrough audio issues**
 
 # Overview
 SPMC supports decoding of many audio formats to uncompressed PCM, which can be processed by most TVs, soundbars, and AV receivers. If SPMC supports PCM decoding of a desired audio codec, there is no sonic difference between PCM output (where SPMC is doing the decoding) and bitstream output (where your AVR is doing the decoding).
@@ -14,12 +12,12 @@ In addition to freeing up settop device resources, the advantages of using passt
 # Hardware Configuration
 Even if your AVR or soundbar  supports DTS-HD MA or Dolby TrueHD, the method that you are using to send audio to your AVR may limit available hardware codecs.
 
-Make sure you connect your Nvidia Shield TV directly to your AV Receiver using an HDMI 2.0 port. Then connect your TV to your AVR. If you connect your settop box directly to your TV instead and use the HDMI 1.4 Audio Return Channel, then you will only see DTS or Dolby Digital, not DTS-HD MA or Dolby TrueHD.
+Make sure you connect your Nvidia Shield TV directly to your AV Receiver using an HDMI 2.0a port. Then connect your TV to your AVR. If you connect your settop box directly to your TV instead and use the HDMI 1.4 Audio Return Channel, then you will only see DTS or Dolby Digital, not DTS-HD MA or Dolby TrueHD.
 
 # SPMC Settings
 Enable 'expert' in the settings menu. Then, make the following changes:
 
-* Audio output device = **Android, RAW Passthrough** [or **IEC** if using the 16.6 beta and Shield firmware 5.0.x]
+* Audio output device = **IEC**
 * Number of channels = **7.1** [your receiver should be able to handle this input regardless of your actual speaker configuration. This number will be disregarded for any codec that your receiver supports for passthrough]
 * Output configuration = **Best Match** 
 * Stereo upmix = **off**
@@ -29,7 +27,7 @@ Enable 'expert' in the settings menu. Then, make the following changes:
 * Keep audio devices alive = **10 Minutes** [this will prevent your AVR from going to sleep]
 * Enable audio DSP processing = **off**
 * Enable passthrough = **on**
-* Passthrough output device = **Android, RAW Passthrough** [or **IEC** if using the 16.6 beta and Shield firmware 5.0.x]
+* Passthrough output device = **IEC**
 
 Check your AVR receiver's user manual to confirm that it supports each of the following audio codecs and enable them accordingly:
 
