@@ -3,7 +3,7 @@
 # Overview
 The following sample advancedsettings.xml showcases a number of advanced SPMC capabilities. 
 
-**You should only use the settings appropriate for your needs. All of these settings are optional! Some of these settings assume you have a high-powered CPU**
+**You should only use the settings appropriate for your needs. All of these settings are optional! Some of these settings assume you have a high-powered CPU and fast network (GigE or Wireless AC).**
 
 Sample settings include:
 
