@@ -1,3 +1,5 @@
+**Updated for SPMC 17**
+
 # Overview
 The following sample advancedsettings.xml showcases a number of advanced SPMC capabilities. 
 
@@ -55,11 +57,11 @@ Replace the _host_, _user_ and _pass_ field sample information below with your p
 			<regexp>@EADIR</regexp>
 		</excludefromlisting>
 	</audio>
-	<network>
-   		<buffermode>1</buffermode> <!-- Buffer all filesystems (including local)  -->
-   		<cachemembuffersize>209715200</cachemembuffersize> --> <!-- 200MB buffer  -->
-	    <readbufferfactor>20</readbufferfactor>
-	</network>
+	<cache> <!-- new settings for v17 -->
+	    <memorysize>278921216</memorysize>  <!-- uses about 800MB or RAM overall -->
+	    <buffermode>1</buffermode>  <!-- Buffer all filesystems, both internet and local  -->
+	    <readfactor>20</readfactor> <!-- increase the fill-rate of the cache (assumes GigE / Wireless AC connection -->
+	</cache>
     <videodatabase>
         <type>mysql</type>
         <host>xxxx</host>
