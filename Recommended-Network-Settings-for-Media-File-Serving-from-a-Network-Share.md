@@ -41,7 +41,12 @@ For more Synology NAS configuration recommendations, [please read here](https://
 
 # Configuration for a Windows 10 PC
 
-Create a username and password specifically for SPMC on your Windows PC. Make sure that it is given read-only permissions for the shared folders where your media is stored.
+* Create a username and password specifically for SPMC on your Windows PC.
+* Make sure Homegroup is disabled.
+* Ensure your Network Location = Private Network.
+* Check your Advanced Sharing Settings. Ensure "Turn on Password Protected Sharing" is on.
+* Check your share to ensure that the SPMC user account has read-only permissions for the shared folders where your media is stored.
+* In SPMC, define your media sources including the folders, username and password for your NAS.
 
 
 # Notes
