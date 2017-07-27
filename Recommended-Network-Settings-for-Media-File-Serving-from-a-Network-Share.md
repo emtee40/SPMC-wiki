@@ -12,7 +12,7 @@ SMBv1 is decades old, slow, complex, and has security holes. It should be disabl
 
 SMBv2 (introduced ten years ago with Vista and Server 2008) is a complete rewrite that simplifies the protocol and is better suited, performance-wise to video file serving (including large reads and pipelining). SMB 2.1 supports large MTU.
 
-SMBv3 adds more performance improvements and end-to-end encryption. Samba4 and Windows 10 both support SMBv3. SMBv3 speed is comparable to or better than NFS. And, SMB supports user-based authentication, which should be enabled.
+SMBv3 adds more performance improvements and end-to-end encryption. Samba4 and Windows 10 both support SMBv3. SMBv3 speed is comparable to or better than NFS. And, SMB supports user-based authentication, which should always be enabled for security reasons.
 
 
 # Configuration for a Synology NAS running DSM 6.1 (or later)
