@@ -29,6 +29,7 @@ Under advanced SMB settings:
 * Enable SMB durable handles
 
 Under Advanced (SSDP):
+
 * Enable Windows network discovery
 
 Create a username and password specifically for SPMC on your NAS. Make sure that it is given read-only permissions for the shared folders where your media is stored.
@@ -38,6 +39,15 @@ In SPMC, define your media sources including the folders, username and password 
 For more Synology NAS configuration recommendations, [please read here](https://www.synology.com/en-us/knowledgebase/DSM/help/DSM/AdminCenter/file_winmacnfs_win).
 
 
-Additional Reading Resources:
+# Configuration for a Windows 10 PC
+
+Create a username and password specifically for SPMC on your Windows PC. Make sure that it is given read-only permissions for the shared folders where your media is stored.
+
+
+# Notes
+There is no way to browse for SMB servers when SMB3 is activated, only with SMB1. When using SMB2/3, you have to enter the server address.
+
+
+# Additional Reading Resources
 For SMB3 v NFS4 performance, particularly reading large files, [please read here (starting pg 28)](http://2016.texaslinuxfest.org/sites/default/files/slides/Texas-Linux-Fest-2016-Future-of-NAS-draft5.pdf).
 
