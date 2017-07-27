@@ -35,11 +35,9 @@ Create a username and password specifically for SPMC on your NAS. Make sure that
 
 In SPMC, define your media sources including the folders, username and password for your NAS.
 
-For more recommendations, see here:
-https://www.synology.com/en-us/knowledgebase/DSM/help/DSM/AdminCenter/file_winmacnfs_win
+For more Synology NAS configuration recommendations, [please read here](https://www.synology.com/en-us/knowledgebase/DSM/help/DSM/AdminCenter/file_winmacnfs_win).
 
 
 Additional Reading Resources:
-For SMB3 v NFS4 performance, particularly reading large files, see here (starting pg 28):
-http://2016.texaslinuxfest.org/sites/default/files/slides/Texas-Linux-Fest-2016-Future-of-NAS-draft5.pdf
+For SMB3 v NFS4 performance, particularly reading large files, [please read here (starting pg 28)](http://2016.texaslinuxfest.org/sites/default/files/slides/Texas-Linux-Fest-2016-Future-of-NAS-draft5.pdf).
 
