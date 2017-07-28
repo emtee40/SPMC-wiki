@@ -25,4 +25,6 @@ Welcome to the SPMC wiki!
 * [[Recommended passthrough audio settings for SPMC, Fire TV and AV Receivers]]
 
 == Other ==
+* [[Recommended Network Settings for Media File Serving from a Network Share]]
+* [[Advanced Network Settings]]
 * [[Sample advancedsettings.xml]]
