@@ -32,7 +32,7 @@ Under Advanced (SSDP):
 
 * Enable Windows network discovery
 
-Create a username and password specifically for SPMC on your NAS. Make sure that it is given read-only permissions for the shared folders where your media is stored.
+Create a username and password specifically for SPMC on your NAS. **Do not reuse your administrator or another user account**. Make sure that it is given read-only permissions for the shared folders where your media is stored. 
 
 In SPMC, define your media sources including the folders, username and password for your NAS.
 
@@ -41,7 +41,7 @@ For more Synology NAS configuration recommendations, [please read here](https://
 
 # Configuration for a Windows 10 PC
 
-* Create a username and password specifically for SPMC on your Windows PC.
+* Create a username and password specifically for SPMC on your Windows PC (limited user account). **Do not reuse your administrator or another user account**. For instructions on creating Windows 10 limited User accounts, [please read here](https://www.laptopmag.com/articles/limited-user-accounts-windows-10).
 * Make sure Homegroup is disabled.
 * Ensure your Network Location = Private Network.
 * Check your Advanced Sharing Settings. Ensure "Turn on Password Protected Sharing" is on.
@@ -55,4 +55,5 @@ There is no way to browse for SMB servers when SMB3 is activated, only with SMB1
 
 # Additional Reading Resources
 For SMB3 v NFS4 performance, particularly reading large files, [please read here (starting pg 28)](http://2016.texaslinuxfest.org/sites/default/files/slides/Texas-Linux-Fest-2016-Future-of-NAS-draft5.pdf).
+
 
