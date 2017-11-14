@@ -60,6 +60,6 @@ Finally, add the following lines to your advancedsettings.xml. The fanart and im
 # Other / Known Issues
 Videos > Playback > sync playback to display should always be set to **off** when using passthrough audio.
 
-If your video is choppy or pausing, it may be due to another Android program. For example, certain popular Android FTP utilities appear to cause this issue. You are better off using the Shield's native SMB service instead. Similar issues have been seen with Live Channels and popular TV tuner plugins. With Shield Experience 5.1, you can double-click O to go to the recent apps page and close problematic apps. Additionally, we now recommend adding a delay between 2.5 and 4 seconds during a refresh rate change.  
+If your video is choppy or pausing, it may be due to another Android program. For example, certain popular Android FTP utilities appear to cause this issue. You are better off using the Shield's native SMB service instead. Similar issues have been seen with Live Channels and popular TV tuner plugins. With Shield Experience 6.1, you can double-click O to go to the recent apps page and close problematic apps. Additionally, we now recommend adding a delay between 2.5 and 4 seconds during a refresh rate change.  
 
 
