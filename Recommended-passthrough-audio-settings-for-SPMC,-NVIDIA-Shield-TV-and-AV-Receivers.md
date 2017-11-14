@@ -1,6 +1,6 @@
-**Updated as of Shield Experience 5.1 and SPMC 16.6**
+**Updated as of Shield Experience 6.1 and SPMC 17**
 
-**After you have upgraded to Shield Experience 5.1 and SPMC 16.6, you should switch your audio passthrough settings to IEC, as described below. Similarly, we recommend that you adjust your display refresh rate = on start / stop, and pause during refresh change = 3.0 seconds to avoid related passthrough audio issues**
+**After you have upgraded to Shield Experience 6.1 and SPMC 17, you should switch your audio passthrough settings to IEC, as described below. Similarly, we recommend that you adjust your display refresh rate = on start / stop, and pause during refresh change = 3.0 seconds to avoid related passthrough audio issues**
 
 # Overview
 SPMC supports decoding of many audio formats to uncompressed PCM, which can be processed by most TVs, soundbars, and AV receivers. If SPMC supports PCM decoding of a desired audio codec, there is no sonic difference between PCM output (where SPMC is doing the decoding) and bitstream output (where your AVR is doing the decoding).
